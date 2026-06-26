@@ -1,0 +1,2502 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Присвоения — 2024–2025</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --muted: #5c6370;
+  --border: #e2e5ea;
+  --head-bg: #f5f6f8;
+  --badge-bg: #eef0f3;
+  --link: #1a56db;
+  --page-bg: #fff;
+  --w-date: 11%;
+  --w-event: 40%;
+  --w-place: 22%;
+  --w-ranks: 27%;
+  --w-rank-half: calc(var(--w-ranks) / 2);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 32px 20px 48px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--page-bg);
+}
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+.meta {
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.meta strong { color: var(--text); }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+table.summary,
+table.detail {
+  width: 100%;
+  table-layout: fixed;
+}
+table.summary {
+  margin-bottom: 36px;
+}
+table.detail {
+  margin-bottom: 12px;
+}
+th, td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+th {
+  background: var(--head-bg);
+  font-weight: 600;
+  text-align: left;
+}
+tr:last-child td { border-bottom: none; }
+table.summary .col-date,
+col.c-num {
+  width: var(--w-date);
+}
+table.summary .col-date {
+  white-space: normal;
+  text-align: center;
+  line-height: 1.3;
+}
+table.summary .col-date .date-day {
+  display: block;
+  white-space: nowrap;
+}
+table.summary .col-date .date-my {
+  display: block;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.92em;
+}
+table.summary .col-event,
+col.c-fio {
+  width: var(--w-event);
+}
+table.summary .col-event {
+  white-space: normal;
+  word-break: break-word;
+}
+table.summary .col-place,
+col.c-horse {
+  width: var(--w-place);
+}
+table.summary .col-place {
+  white-space: normal;
+  word-break: break-word;
+}
+table.summary .col-ranks {
+  width: var(--w-ranks);
+  white-space: normal;
+}
+table.detail th,
+table.detail td {
+  white-space: nowrap;
+}
+col.c-rank {
+  width: var(--w-rank-half);
+}
+td.num, th.num, td.rank, th.rank {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+td.rank.rank-kms {
+  background: linear-gradient(180deg, #d8ef85 0%, #b8d956 50%, #a4c639 100%);
+  color: #2f5015;
+  font-weight: 600;
+}
+.rank-stat { margin-right: 0.15em; }
+.rank-stat strong { font-weight: 700; }
+h2.event {
+  margin: 28px 0 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--link);
+  line-height: 1.35;
+}
+h2.event a { color: inherit; }
+h2.event a:hover { text-decoration: underline; }
+.class-badge {
+  display: inline-block;
+  margin: 16px 0 8px;
+  padding: 4px 10px;
+  background: var(--badge-bg);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.tech-specs {
+  margin: 0 0 10px;
+  padding: 8px 12px 8px 24px;
+  background: #f9fafb;
+  border-left: 3px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.tech-specs li { margin: 2px 0; }
+section.event-block { margin-bottom: 8px; }
+h2.section-title {
+  margin: 36px 0 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+</style>
+</head>
+<body>
+<div class="page">
+<h1>Присвоения — 2024–2025 (сводный отчёт)</h1>
+<p class="meta">OpenRouter Vision (Gemini 2.5 Flash, DPI 400). Сортировка: по дате начала мероприятия.<br>Мероприятий с присвоениями: <strong>34</strong></p>
+<table class="summary">
+<thead><tr>
+<th class="col-date">Дата</th>
+<th class="col-event">Мероприятие</th>
+<th class="col-place">Место</th>
+<th class="col-ranks">Присвоено</th>
+</tr></thead>
+<tbody>
+<tr><td class="col-date"><span class="date-day">19 — 21</span><span class="date-my">апреля 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34205.pdf" target="_blank" rel="noopener noreferrer">Кубок Брянской области по троеборью</a></td><td class="col-place">Брянская обл., Загородный клуб &quot;Журавка&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×4</span>, <span class="rank-stat"><strong>I</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">24 — 27</span><span class="date-my">апреля 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34229.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Тюменской обл. по троеборью</a></td><td class="col-place">Тюменская обл.</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×2</span>, <span class="rank-stat"><strong>I</strong> ×10</span>, <span class="rank-stat"><strong>II</strong> ×4</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">1 — 5</span><span class="date-my">мая 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Troebornaja_junost_Rossii__Kubok_Otkrytie__Kubok_Ramenskogo_go_po_troeborju_Kubok_KSK_Sozvezdie_po_troeborju/" target="_blank" rel="noopener noreferrer">Троеборная юность России/ &quot;Кубок &quot;Открытие&quot; /Кубок Раменского г.о. по троеборью/Кубок КСК «Созвездие» по троеборью</a></td><td class="col-place">Московская обл., ДЮСШ &quot;СОЗВЕЗДИЕ&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×25</span>, <span class="rank-stat"><strong>II</strong> ×16</span>, <span class="rank-stat"><strong>III</strong> ×2</span>, <span class="rank-stat"><strong>1</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">16 — 19</span><span class="date-my">мая 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Kubok_Pobedy_po_troeborju/" target="_blank" rel="noopener noreferrer">Финал Кубка Победы по троеборью/ММ по троеборью (3 этап)</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×15</span>, <span class="rank-stat"><strong>I</strong> ×8</span>, <span class="rank-stat"><strong>II</strong> ×4</span>, <span class="rank-stat"><strong>III</strong> ×5</span></td></tr>
+<tr><td class="col-date"><span class="date-day">20 — 23</span><span class="date-my">мая 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34471.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Новосибирской обл. по троеборью</a></td><td class="col-place">Новосибирская обл., ГАУ ДО НСО СШОР по КС им. И.П. Брайчева</td><td class="col-ranks"><span class="rank-stat"><strong>II</strong> ×1</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">13 — 16</span><span class="date-my">июня 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34660.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России.Лично-Командные соревнования «Звезды Евразии»</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>МС</strong> ×9</span>, <span class="rank-stat"><strong>КМС</strong> ×3</span>, <span class="rank-stat"><strong>I</strong> ×3</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">20 — 23</span><span class="date-my">июня 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34659.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и первенство ПФО по троеборью/Всеросс.сор-ния по троеборью</a></td><td class="col-place">Нижегородская обл., КСК Пассаж</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×3</span>, <span class="rank-stat"><strong>II</strong> ×6</span></td></tr>
+<tr><td class="col-date"><span class="date-day">25 — 28</span><span class="date-my">июня 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Vserossijskie_sor-nija_po_troeborju_Novosibirsk/" target="_blank" rel="noopener noreferrer">Всероссийские сор-ния по троеборью (Новосибирск)</a></td><td class="col-place">Новосибирская обл., ГАУ ДО НСО СШОР по КС им. И.П. Брайчева</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×8</span>, <span class="rank-stat"><strong>I</strong> ×9</span>, <span class="rank-stat"><strong>II</strong> ×13</span>, <span class="rank-stat"><strong>III</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">4 — 7</span><span class="date-my">июля 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Evrazijskie_Igry_Evrazijskoe_Pervenstvo_Studencheskie_sorevnovanija_po_troeborju/" target="_blank" rel="noopener noreferrer">Евразийские Игры, Евразийское Первенство/Студенческие соревнования по троеборью</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">19 — 21</span><span class="date-my">июля 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34871.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Москвы по троеборью</a></td><td class="col-place">Москва, ГБУ СШ &quot;Битца&quot; Москомспорта</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×13</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">29 июля — 4</span><span class="date-my">августа 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Spartakiada_sredi_junoshej_po_vyezdke_i_troeborju_XI_LETNJaJa_SPARTAKIADA_uchaschihsja_2024_GODA/" target="_blank" rel="noopener noreferrer">Спартакиада среди юношей (XI ЛЕТНЯЯ СПАРТАКИАДА учащихся 2024 ГОДА)</a></td><td class="col-place">Московская обл., КСК Конаковские Конюшни</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×1</span>, <span class="rank-stat"><strong>1</strong> ×6</span>, <span class="rank-stat"><strong>2</strong> ×9</span>, <span class="rank-stat"><strong>3</strong> ×4</span></td></tr>
+<tr><td class="col-date"><span class="date-day">17 — 20</span><span class="date-my">августа 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/35192.pdf" target="_blank" rel="noopener noreferrer">Кубок Сибири по троеборью</a></td><td class="col-place">Кемеровская обл.</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×1</span>, <span class="rank-stat"><strong>II</strong> ×4</span>, <span class="rank-stat"><strong>III</strong> ×1</span>, <span class="rank-stat"><strong>3</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">5 — 8</span><span class="date-my">сентября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Chempionat_i_Pervenstvo_Rossii_po_troeborju/" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство России по троеборью</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>МС</strong> ×3</span>, <span class="rank-stat"><strong>КМС</strong> ×5</span>, <span class="rank-stat"><strong>III</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">11 — 15</span><span class="date-my">сентября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2024-Vseross_sor-nija_po_troeborju_KSK_Dubrava/" target="_blank" rel="noopener noreferrer">Всеросс. сор-ния по троеборью (КСК Дубрава)</a></td><td class="col-place">Свердловская обл., КСК Дубрава</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×2</span>, <span class="rank-stat"><strong>II</strong> ×3</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">26 — 29</span><span class="date-my">сентября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/35418.pdf" target="_blank" rel="noopener noreferrer">Финал Maxima Masters/Междунар.сор-ния/Чемпионат России по троеборью (молодые лошади)</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×4</span>, <span class="rank-stat"><strong>I</strong> ×17</span>, <span class="rank-stat"><strong>II</strong> ×12</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">10 — 13</span><span class="date-my">октября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/35544.pdf" target="_blank" rel="noopener noreferrer">Кубок Главы Рамнеского г.о. по троеборью</a></td><td class="col-place">Московская обл., ДЮСШ &quot;СОЗВЕЗДИЕ&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>1</strong> ×6</span></td></tr>
+<tr><td class="col-date"><span class="date-day">11 — 13</span><span class="date-my">октября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/35636.pdf" target="_blank" rel="noopener noreferrer">Региональные соревнования по троеборью &quot;Кубок Губернатора Брянской области&quot;</a></td><td class="col-place">Брянская обл., Загородный клуб &quot;Журавка&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×2</span>, <span class="rank-stat"><strong>II</strong> ×6</span></td></tr>
+<tr><td class="col-date"><span class="date-day">17 — 20</span><span class="date-my">октября 2024</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/35698.pdf" target="_blank" rel="noopener noreferrer">Всеросс. сор-ния по троеборью (РСО-Алания)</a></td><td class="col-place">Республика Северная Осетия - Алания, РКСШ, г.Владикавказ</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×3</span>, <span class="rank-stat"><strong>I</strong> ×3</span>, <span class="rank-stat"><strong>II</strong> ×1</span>, <span class="rank-stat"><strong>1</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">13 — 19</span><span class="date-my">марта 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/36397.pdf" target="_blank" rel="noopener noreferrer">Всероссийское физкультурное мероприятие по троеборью &quot;Зимний Кубок КСК &quot;Дубрава&quot;</a></td><td class="col-place">Свердловская обл., КСК Дубрава</td><td class="col-ranks"><span class="rank-stat"><strong>1</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">23 — 27</span><span class="date-my">апреля 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/36581.pdf" target="_blank" rel="noopener noreferrer">Всероссийские спортивные соревнования по троеборью посвященные памяти Кибизова Фердинанда Ессоевича</a></td><td class="col-place">Республика Северная Осетия - Алания, РКСШ, г.Владикавказ</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×1</span>, <span class="rank-stat"><strong>I</strong> ×2</span>, <span class="rank-stat"><strong>II</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">24 — 26</span><span class="date-my">апреля 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/36571.pdf" target="_blank" rel="noopener noreferrer">Кубок Брянской области по троеборью</a></td><td class="col-place">Брянская обл., Загородный клуб &quot;Журавка&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">1 — 4</span><span class="date-my">мая 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2025-Chempionat_Ramenskogo_gorodskogo_okruga_po_troeborju_Kubok_KSK_Sozvezdie_po_troeborju/" target="_blank" rel="noopener noreferrer">Кубок Московской области по троеборью/Чемпионат Раменского городского округа по троеборью. Кубок КСК «Созвездие» по троеборью</a></td><td class="col-place">Московская обл., ДЮСШ &quot;СОЗВЕЗДИЕ&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×22</span>, <span class="rank-stat"><strong>II</strong> ×6</span></td></tr>
+<tr><td class="col-date"><span class="date-day">11 — 14</span><span class="date-my">мая 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/38166.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Новосибирской области по троеборью</a></td><td class="col-place">Новосибирская обл., ГАУ ДО НСО СШОР по КС им. И.П. Брайчева</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×2</span>, <span class="rank-stat"><strong>I</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">30 мая — 1</span><span class="date-my">июня 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37084.pdf" target="_blank" rel="noopener noreferrer">Региональные соревнования по троеборью</a></td><td class="col-place">Алтайский край</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">5 — 8</span><span class="date-my">июня 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/36920.pdf" target="_blank" rel="noopener noreferrer">Кубок России по троеборью HL</a></td><td class="col-place">Москва, ГБУ СШ &quot;Битца&quot; Москомспорта</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×5</span>, <span class="rank-stat"><strong>I</strong> ×1</span>, <span class="rank-stat"><strong>II</strong> ×1</span>, <span class="rank-stat"><strong>III</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">10 — 12</span><span class="date-my">июня 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37108.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Кузбасса по троеборью</a></td><td class="col-place">Кемеровская обл.</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×5</span>, <span class="rank-stat"><strong>II</strong> ×3</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">23 — 26</span><span class="date-my">июня 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37109.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Сибирского Федерального округа по троеборью</a></td><td class="col-place">Новосибирская обл.</td><td class="col-ranks"><span class="rank-stat"><strong>МС</strong> ×2</span>, <span class="rank-stat"><strong>КМС</strong> ×3</span>, <span class="rank-stat"><strong>I</strong> ×13</span>, <span class="rank-stat"><strong>II</strong> ×12</span>, <span class="rank-stat"><strong>III</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">8 — 11</span><span class="date-my">июля 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37302.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство г. Москвы по троеборью</a></td><td class="col-place">Москва, ГБУ СШ &quot;Битца&quot; Москомспорта</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">19 — 22</span><span class="date-my">июля 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37409.pdf" target="_blank" rel="noopener noreferrer">Межрегиональные соревнования по троеборью &quot;Кубок Сибири&quot;</a></td><td class="col-place">Кемеровская обл.</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×2</span>, <span class="rank-stat"><strong>I</strong> ×12</span>, <span class="rank-stat"><strong>II</strong> ×9</span>, <span class="rank-stat"><strong>III</strong> ×4</span>, <span class="rank-stat"><strong>1</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">4 — 6</span><span class="date-my">августа 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/events/2025-Kubok_g_Jaroslavlja_po_konnomu_sportu_troebore/" target="_blank" rel="noopener noreferrer">Кубок г. Ярославля по конному спорту (троеборье)</a></td><td class="col-place">Ярославская обл., СДЮШОР №21 Ярославль</td><td class="col-ranks"><span class="rank-stat"><strong>II</strong> ×6</span></td></tr>
+<tr><td class="col-date"><span class="date-day">24 — 28</span><span class="date-my">сентября 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2026/38251.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России (молодые лошади)/Первенство России по троеборью HL</a></td><td class="col-place">Московская обл., Maxima Stables</td><td class="col-ranks"><span class="rank-stat"><strong>КМС</strong> ×8</span>, <span class="rank-stat"><strong>I</strong> ×3</span></td></tr>
+<tr><td class="col-date"><span class="date-day">10 — 12</span><span class="date-my">октября 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37947.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Брянской области по троеборью</a></td><td class="col-place">Брянская обл., Загородный клуб &quot;Журавка&quot;</td><td class="col-ranks"><span class="rank-stat"><strong>I</strong> ×3</span>, <span class="rank-stat"><strong>II</strong> ×4</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+<tr><td class="col-date"><span class="date-day">17 — 19</span><span class="date-my">октября 2025</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2025/37951.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России по троеборью LL/Всероссийские спортивные соревнования по троеборью на призы Главы Республики Северная Осетия-Алания</a></td><td class="col-place">Республика Северная Осетия - Алания, РКСШ, г.Владикавказ</td><td class="col-ranks"><span class="rank-stat"><strong>МС</strong> ×5</span>, <span class="rank-stat"><strong>I</strong> ×2</span>, <span class="rank-stat"><strong>III</strong> ×2</span></td></tr>
+<tr><td class="col-date"><span class="date-day">—</span><span class="date-my">—</span></td><td class="col-event"><a href="https://www.equestrian.ru/files/2024/34661.pdf" target="_blank" rel="noopener noreferrer">Первенство Орловской области по троеборью/Муницип сор-ния</a></td><td class="col-place">—</td><td class="col-ranks"><span class="rank-stat"><strong>II</strong> ×1</span>, <span class="rank-stat"><strong>III</strong> ×1</span></td></tr>
+</tbody></table>
+<h2 class="section-title">Детали по мероприятиям</h2>
+<section class="event-block">
+<h2 class="event">19 — 21 апреля 2024 г. — <a href="https://www.equestrian.ru/files/2024/34205.pdf" target="_blank" rel="noopener noreferrer">Кубок Брянской области по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN2*-S (открытый класс)</div>
+<ul class="tech-specs"><li>Выездка: FEI 2* (A) 2021</li><li>Кросс: высота 110 см, преп. 20, прыжк. 27, дистанция 2600 м, ск. 520 м/мин, н.вр. 05&#x27;00&quot;, разметка белая</li><li>Конкур: высота 115 см, дистанция 570 м, ск. 350 м/мин, н.вр. 98 сек., пред.норма 196 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Селиваненко Дарья Алексеевна</td><td class="fio">БАЛУБЕ СР-16</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">Павленок Милана Игоревна</td><td class="fio">ОПЕРАТОР-07</td><td class="rank">3</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">Селиваненко Дарья Алексеевна</td><td class="fio">БЛЕФ-16</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">Скрылев Виктор Владимирович</td><td class="fio">БУЗНА ВИСТА-18</td><td class="rank">1</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">Марков Александр Иванович</td><td class="fio">РЕБУС-16</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">24 — 27 апреля 2024 г. — <a href="https://www.equestrian.ru/files/2024/34229.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Тюменской обл. по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN - 2* S</div>
+<ul class="tech-specs"><li>Выездка: ССМ 2* S, Тест FEI 2* (А) 2021</li><li>Кросс: высота 110 см, преп. 21, прыжк. 28, дистанция 2800 м, ск. 520 м/мин, н.вр. 05&#x27;24&quot;</li><li>Конкур: высота 115 см, дистанция 490 м, ск. 350 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПАУТОВА Татьяна</td><td class="fio">ХЭЛЛОРИ ГРАНД-15</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">НОРКИНА Марина</td><td class="fio">ЗЭТ-10</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 2* - S (Юноши/девушки (J) (14-18 лет - 2006-2010 г.р.))</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* S, Тест FEI 2* (А) 2021</li><li>Кросс: высота 110 см, преп. 21, прыжк. 28, дистанция 2800 м, ск. 520 м/мин, н.вр. 05&#x27;24&quot;</li><li>Конкур: высота 115 см, дистанция 490 м, ск. 350 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">БУЛАЕВА Вероника Евгеньевна</td><td class="fio">РОДЖЕРС</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ИВАНОВА Виктория Михайловна</td><td class="fio">КАПОР</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ИВАНОВА Виктория Михайловна</td><td class="fio">МИРАЖ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">НОРИК Виктория Александровна</td><td class="fio">БУРБОН</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 (ЛЕГКИЙ КЛАСС 100/ЛК 100)</div>
+<ul class="tech-specs"><li>Выездка: CN 100 (ЛК 100), Тест FEI 1* (A) 2022</li><li>Кросс: высота 100 см, преп. 16, прыжк. 21, дистанция 2300 м, ск. 500 м/мин, н.вр. 04&#x27;36&quot;</li><li>Конкур: высота 105 см, дистанция 430 м, ск. 325 м/мин, н.вр. 80 сек., пред.норма 160 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КОЛМОГОРОВА Екатерина</td><td class="fio">АЗАМАТ-16</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">НОРКИНА Марина</td><td class="fio">АЛЬМАНЗОР-17</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">1</td><td class="fio">ШАБАНОВ Николай</td><td class="fio">КОРНЕТ-19</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">УРУБАЕВА Юлия</td><td class="fio">ЗЕМГАЛИЯ-19</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">1</td><td class="fio">КИЛИНА Александра</td><td class="fio">АЗНАУР</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КУРБАТОВА Кира</td><td class="fio">ПРОСПЕКТ</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 (ЛЕГКИЙ КЛАСС 90/ЛК 90)</div>
+<ul class="tech-specs"><li>Выездка: FEI 1* (A) 2022</li><li>Кросс: высота 90 см, дистанция 850 м, ск. 400 м/мин, н.вр. 02&#x27;08&quot;</li><li>Конкур: высота 90 см, дистанция 430 м, ск. 325 м/мин, н.вр. 80 сек., пред.норма 160 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ШАБАНОВ Николай</td><td class="fio">ПОЛАНДО ХАЙМЭ С-18</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">КАМОРНИК Дарья</td><td class="fio">ФАРХАД-19</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КОЛМОГОРОВА Екатерина</td><td class="fio">СИГМА-19</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 (ЛЕГКИЙ КЛАСС 90/ЛК 90) Юноши/девушки (J) (14-18 лет - 2006-2010 г.р.)</div>
+<ul class="tech-specs"><li>Выездка: CN 90 (ЛК 90), Тест FEI 1* (A) 2022</li><li>Кросс: высота 90 см, преп. 9, прыжк. 10, дистанция 850 м, ск. 400 м/мин, н.вр. 02&#x27;08&#x27;&#x27;</li><li>Конкур: высота 90 см, дистанция 430 м, ск. 325 м/мин, н.вр. 80 сек., пред.норма 160 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">САПКУЛОВА Диана</td><td class="fio">ГОЛДИ-17</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 (ЛЕГКИЙ КЛАСС 90/ЛК 90) Мальчики/девочки (Ch) (12-14 лет - 2010-2012 г.р.)</div>
+<ul class="tech-specs"><li>Выездка: CN 90 (ЛК 90), Тест FEI 1* (A) 2022</li><li>Кросс: высота 90 см, преп. 9, прыжк. 10, дистанция 850 м, ск. 400 м/мин, н.вр. 02&#x27;08&quot;</li><li>Конкур: высота 90 см, дистанция 430 м, ск. 325 м/мин, н.вр. 80 сек., пред.норма 160 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МОГУТНОВА Александра</td><td class="fio">БУРАН-13</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">1 — 5 мая 2024 г. — <a href="https://www.equestrian.ru/events/2024-Troebornaja_junost_Rossii__Kubok_Otkrytie__Kubok_Ramenskogo_go_po_troeborju_Kubok_KSK_Sozvezdie_po_troeborju/" target="_blank" rel="noopener noreferrer">Троеборная юность России/ &quot;Кубок &quot;Открытие&quot; /Кубок Раменского г.о. по троеборью/Кубок КСК «Созвездие» по троеборью</a></h2>
+<div class="class-badge">троеборьe — CN 90 (ДЕТСКИЙ КЛАСС 90) (взрослые, мужчины/женщины)</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">БАРЕЛЬЕФ-15</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ЕВДОКИМОВА Софья Алексеевна</td><td class="fio">ЛАДОГА-17</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">МУРАВЬЕВА Анастасия Станиславовна</td><td class="fio">ДЕПЕША-08</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">ЕЖОВА Милана Владимировна</td><td class="fio">ПЛАНЕТА-14</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">7</td><td class="fio">БОБРОВА Елена Валерьевна</td><td class="fio">ТИК ТАК-16</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">8</td><td class="fio">КОРОТЕНКОВА Надежда Алексеевна</td><td class="fio">МЕТЕЛЬ-17</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">9</td><td class="fio">ГАЛЬЦОВА Александра Максимовна</td><td class="fio">БЕРГЕНА-13</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">10</td><td class="fio">БОЛОТОВА Алина Эдуардовна</td><td class="fio">ГРАНД МАЙЕР-08</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">11</td><td class="fio">СТУЛЬБО Анна Геннадьевна</td><td class="fio">ПОЛЛИ-06</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">12</td><td class="fio">ФИЛИППОВА Дарья Денисовна</td><td class="fio">БУРБОН-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">16</td><td class="fio">БУКРЕЕВА Варвара Андреевна</td><td class="fio">КАЛИПСО-15</td><td class="rank">2</td><td class="rank">1</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90-Ch (ДЕТСКИЙ КЛАСС 90) (мальчики/девочки 12-14 лет)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1*</li><li>Кросс: высота 90 см, преп. 10, прыжк. 12, дистанция 1370 м, ск. 420 м/мин, н.вр. 03&#x27;16&quot;, разметка зеленая</li><li>Конкур: высота 90 см, дистанция 410 м, ск. 325 м/мин, н.вр. 76 сек., пред.норма 152 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПОЛЯКОВА Анастасия Мамуковна</td><td class="fio">ФЕРИ ДЕ-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КОВАЛЬКОВА Мария Сергеевна</td><td class="fio">САНШАЙН-16</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">АЛЕКСЕЕВА Алиса Ильинична</td><td class="fio">ПЕРВЫЙ МАЛЫЙ-11</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ИВАНОВА Кира Дмитриевна</td><td class="fio">НОРСЕРН ВИНД-16</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">СТЕПАНОВА Варвара Сергеевна</td><td class="fio">БАСТА-17</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">ОМЕЛЬЧУК Анна Сергеевна</td><td class="fio">ПАННИ-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN1*-Intro (взрослые, мужчины/женщины)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1*</li><li>Кросс: высота 105 см, преп. 17, прыжк. 20, дистанция 2440 м, ск. 500 м/мин, н.вр. 04&#x27;53&quot;, разметка оранжевая</li><li>Конкур: высота 110 см, дистанция 520 м, ск. 350 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ДЕМЧЕНКО Татьяна Александровна</td><td class="fio">МИРАКДИ-18</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">МАКСИМОВА Анастасия Васильевна</td><td class="fio">ФОРБС-17</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">КОЗЫРЕВА Луиза Павловна</td><td class="fio">ИПРИТ-12</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ЛИПАТОВА Анна Александровна</td><td class="fio">САНТИНИ-14</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">ЮДИНА Лидия Константиновна</td><td class="fio">ЛАКШМИ-17</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">СЕРДЕЧНОВ Герман Александрович</td><td class="fio">КОРДЕТТО-18</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">РАЗИНЬКОВА Юлия Алексеевна</td><td class="fio">КВАТТРО КАПИТОЛЬ-14</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">БЕРШАДСКАЯ Мария Алексеевна</td><td class="fio">РАМИРО-17</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">9</td><td class="fio">АБАКУШИНА Маргарита Дмитриевна</td><td class="fio">ЭШЕЛОН-12</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">10</td><td class="fio">ЕВДОКИМОВА Софья Алексеевна</td><td class="fio">РОН УИЗЛИ-16</td><td class="rank">2</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (ЛЕГКИЙ КЛАСС 100) (взрослые, мужчины/женщины)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1*</li><li>Кросс: высота 100 см, преп. 17, прыжк. 20, дистанция 2180 м, ск. 500 м/мин, н.вр. 04&#x27;22&quot;, разметка красная</li><li>Конкур: высота 105 см, дистанция 520 м, ск. 350 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">НАБАТЧИКОВА Екатерина Павловна</td><td class="fio">ЗВЕЗДНЫЙ ДОЖДЬ-10</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ЕРМАК Александра Игоревна</td><td class="fio">РИБЕНТ-19</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">ВАСИЛЬЕВ Иван Александрович</td><td class="fio">ЮВЕЛИРНАЯ-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ЮДИНА Лидия Константиновна</td><td class="fio">ИЛЬ ДЕ РЕ-16</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">КАТЮНИНА Дарья Алексеевна</td><td class="fio">ЛАВ СТОРИ-12</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ЖАРОВ Пётр Александрович</td><td class="fio">РИТМИКА-16</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">СИДОРОВА Полина Николаевна</td><td class="fio">МОНБЛАН-12</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">МАКАРОВ Кирилл Викторович</td><td class="fio">ШКОДА-13</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">9</td><td class="fio">НАЗАРОВА Диана Сергеевна</td><td class="fio">РОНАЛЬДО-10</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">10</td><td class="fio">ШВАЧКА Ангелина Алексеевна</td><td class="fio">ЛОНН ДЕ ВИТО-07</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">11</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">ИНТЕРН-13</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">12</td><td class="fio">ЮДИН Евгений Сергеевич</td><td class="fio">ХЕОПС-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">13</td><td class="fio">ПЕЧЕНИН Вениамин Дмитриевич</td><td class="fio">ИНФАНТ-12</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">14</td><td class="fio">ПЕТУХОВА Александра Валерьевна</td><td class="fio">РЕБЕККА-17</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">15</td><td class="fio">РУДСКАЯ Ольга Алексеевна</td><td class="fio">АРГАМИР-16</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">16</td><td class="fio">САУЛЕНКО Лидия Юрьевна</td><td class="fio">САРМАТ-19</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">17</td><td class="fio">ЕРМАК Александра Игоревна</td><td class="fio">ТАГОР-12</td><td class="rank">МС</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">16 — 19 мая 2024 г. — <a href="https://www.equestrian.ru/events/2024-Kubok_Pobedy_po_troeborju/" target="_blank" rel="noopener noreferrer">Финал Кубка Победы по троеборью/ММ по троеборью (3 этап)</a></h2>
+<div class="class-badge">троеборьe — CCNYR3*-S (CCNY3*-S) Юниоры, юниорки 16-21 год</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI3* A</li><li>Кросс: высота 115 см, преп. 21, прыжк. 29, дистанция 3090 м, ск. 550 м/мин, н.вр. 05&#x27;38&quot;, разметка бежевая</li><li>Конкур: высота 120 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КАСАТКИНА Евгения Игоревна</td><td class="fio">ЦЕНТУРИОН</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN3*-S</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">15</td><td class="fio">ФЕДОРИН Сергей Иванович</td><td class="fio">КАДЕНС ПКЗ</td><td class="rank">МС</td><td class="rank">III</td></tr>
+<tr><td class="num">16</td><td class="fio">ГАБДУЛЛИНА Эмилия Рашидовна</td><td class="fio">ЛАМБАДА</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+<tr><td class="num">17</td><td class="fio">СЕЛИВАНЕНКО Дарья Алексеевна</td><td class="fio">БЛЕФ</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCNJ2*-L</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI2* A</li><li>Кросс: высота 110 см, преп. 22, прыжк. 30, дистанция 3820 м, ск. 520 м/мин, н.вр. 07&#x27;21&quot;, разметка голубая</li><li>Конкур: высота 115 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">СУРКОВА София Александровна</td><td class="fio">РОБЕРТС</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ПОТЕТЕНЬКИНА Виктория Игоревна</td><td class="fio">ХЕППИ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN2*-L, мужчины, женщины 16 лет и старше Серебряный круг</div>
+<ul class="tech-specs"><li>Выездка: Тест 2021 FEI CCI2* A</li><li>Кросс: высота 110 см, преп. 22, прыжк. 30, дистанция 3820 м, ск. 520 м/мин, н.вр. 07&#x27;21&quot;, разметка голубая</li><li>Конкур: высота 115 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ШКЛЯНКОВА Анастасия</td><td class="fio">ДИОР</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">КОСАРЕВА Олеся Владиславовна</td><td class="fio">ЛОГАРИФМ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">КОМАРОВА Ольга</td><td class="fio">ЭМИРА</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">МАКСИМОВА Анастасия Васильевна</td><td class="fio">БАВАРЕЦ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">ЮДИНА Лидия Константиновна</td><td class="fio">ЧУНГА ЧАНГА</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">6</td><td class="fio">ЛИПАТОВА Анна Александровна</td><td class="fio">САНТИНИ</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">7</td><td class="fio">ХАЛИКОВ Альберт Тимергалеевич</td><td class="fio">ЛАУРЭЛЬ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">8</td><td class="fio">ВАСИЛЬЕВ Иван Александрович</td><td class="fio">ЮВЕЛИРНАЯ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">9</td><td class="fio">ОМЕЛИНА Анна Павловна</td><td class="fio">ЭЛЬФ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">10</td><td class="fio">МАРКОВ Александр Иванович</td><td class="fio">РЕБУС</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">11</td><td class="fio">СКРЫЛЕВ Виктор Владимирович</td><td class="fio">БУЭНА ВИСТА</td><td class="rank">I</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN2*-S (взрослые, мужчины/женщины 16 лет и старше)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2021 FEI CCI2* A</li><li>Кросс: высота 110 см, преп. 20, прыжк. 26, дистанция 3120 м, ск. 520 м/мин, н.вр. 06&#x27;00&quot;, разметка фиолетовая</li><li>Конкур: высота 115 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ВАКИН Максим Александрович</td><td class="fio">РЕСУРС</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">БАЛАБАНОВИЧ Полина</td><td class="fio">САНТОРИНИ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">МАРТЫШЕВ Валерий Алексеевич</td><td class="fio">ИРЕГО</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (ЛЕГКИЙ КЛАСС 100) Студенты группа А (мужчины, женщины 14-25 лет)</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1*</li><li>Кросс: высота 100 см, преп. 17, прыжк. 22, дистанция 2480 м, ск. 500 м/мин, н.вр. 04&#x27;58&quot;, разметка розовая</li><li>Конкур: высота 105 см, дистанция 550 м, ск. 325 м/мин, н.вр. 102 сек., пред.норма 204 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">СИВАКОВА Анна Валерьевна</td><td class="fio">БУХТА</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">РОМАНЧУКОВА Валерия Александровна</td><td class="fio">БОФА</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ФАСТОВЕЦ Александра Валерьевна</td><td class="fio">СТЕФАНИ ЭШ ГРЕЙ</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (ЛЕГКИЙ КЛАСС 100) Открытый класс (мужчины, женщины 12 лет и старше)</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1*</li><li>Кросс: высота 100 см, преп. 17, прыжк. 22, дистанция 2480 м, ск. 500 м/мин, н.вр. 04&#x27;58&quot;, разметка розовая</li><li>Конкур: высота 105 см, дистанция 550 м, ск. 325 м/мин, н.вр. 102 сек., пред.норма 204 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МАКСИМОВА Анастасия Васильевна</td><td class="fio">ФОРБС</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ГУРДОГЛАНЯН Диана Акоповна</td><td class="fio">ЛАКИ СТРАЙК</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">ЮДИНА Лидия Константиновна</td><td class="fio">ИЛЬ ДЕ РЕ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ЮДИНА Лидия Константиновна</td><td class="fio">СИР АНРИ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ПУЗЫРЕВА Арина Михайловна</td><td class="fio">ПЛЕЙ БОЙ</td><td class="rank">I</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 60 (ДЕТСКИЙ КЛАСС 60)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1*</li><li>Кросс: высота 60 см, преп. 8, прыжк. 8, дистанция 430 м, ск. 350 м/мин, н.вр. 01&#x27;14&quot;, разметка оранжевая</li><li>Конкур: высота 60 см, дистанция 380 м, ск. 325 м/мин, н.вр. 71 сек., пред.норма 142 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">БАРАБАНОВА Мария Алексеевна</td><td class="fio">ПРИНЦЕССА СИМИН</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">ЯКОВЛЕВА Варвара Николаевна</td><td class="fio">ЛАККИ СТРАЙК</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">СЫЧЕВА Ангелина Олеговна</td><td class="fio">КАМПАРИ</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ИВАННИКОВА Екатерина Ивановна</td><td class="fio">ХАННИ КЕНДИ</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">20 — 23 мая 2024 г. — <a href="https://www.equestrian.ru/files/2024/34471.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Новосибирской обл. по троеборью</a></h2>
+<div class="class-badge">троеборьe — CN 90 Ch (категория: мальчики и девочки 12-14 лет (2012-2010 г.р.))</div>
+<ul class="tech-specs"><li>Выездка: Рез СС11 2022</li><li>Кросс: высота 90 см, преп. 13, прыжк. 14, дистанция 1385 м, ск. 400 м/мин, н.вр. 03&#x27;28&quot;</li><li>Конкур: высота 90 см, дистанция 420 м, ск. 325 м/мин</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">6</td><td class="fio">САМОРОДОВА Милана</td><td class="fio">ЗЛАТОГЛАВАЯ-07</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 80 Ch</div>
+<ul class="tech-specs"><li>Кросс: высота 80 см, преп. 10, прыжк. 10, дистанция 1035 м, ск. 400 м/мин, н.вр. 02-36&quot;</li><li>Конкур: высота 80 см, дистанция 420 м, ск. 325 м/мин</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">5</td><td class="fio">ГУЛЯЕВА Олеся</td><td class="fio">ВОЛШЕБНИК-17</td><td class="rank">—</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">13 — 16 июня 2024 г. — <a href="https://www.equestrian.ru/files/2024/34660.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России.Лично-Командные соревнования «Звезды Евразии»</a></h2>
+<div class="class-badge">троеборьe — CCN3*-L (мужчины, женщины 16 лет и старше)</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI3*(A)</li><li>Кросс: высота 115 см, преп. 22, прыжк. 31, дистанция 4600 м, ск. 550 м/мин, н.вр. 08&#x27;22&quot;, разметка светло-желтая</li><li>Конкур: высота 120 см, дистанция 520 м, ск. 350 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КОСАРЕВА Олеся Владиславовна</td><td class="fio">ФРИ ЭНД ИЗИ БИ</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">2</td><td class="fio">РЫЖАК Анна Евгеньевна</td><td class="fio">ФЛЭШ БЕК</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">3</td><td class="fio">ЛИТВИНЕНКО Мария Андреевна</td><td class="fio">РЕКРУТ</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">4</td><td class="fio">АРТЕМЬЕВА Татьяна Александровна</td><td class="fio">ПАСИФИК</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">5</td><td class="fio">СЕЛИВАНЕНКО Дарья Алексеевна</td><td class="fio">БАЛУБЕ СР</td><td class="rank">—</td><td class="rank">МС</td></tr>
+<tr><td class="num">6</td><td class="fio">ФЕДОРИН Сергей Иванович</td><td class="fio">КАДЕНС ПКЗ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">ГОРЛУШКИНА Марина Игоревна</td><td class="fio">НОБЕЛЬ ІІ</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">8</td><td class="fio">СИВАКОВА Анна Валерьевна</td><td class="fio">БУХТА</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">9</td><td class="fio">ГАБДУЛЛИНА Эмилия Рашидовна</td><td class="fio">ЛАМБАДА</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">10</td><td class="fio">МИХАЙЛОВА Анастасия Юрьевна</td><td class="fio">ХЬЮЦИЛОПОТЧЛИ</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">11</td><td class="fio">ЕЛИСЕЕВА Елизавета Дмитриевна</td><td class="fio">ХАРЬКОВ</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">12</td><td class="fio">ШАБАНОВ Николай Сергеевич</td><td class="fio">ЭРИДАНА</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+<tr><td class="num">13</td><td class="fio">ХИЖУК Яна Витальевна</td><td class="fio">АТЛАНТИДА</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">15</td><td class="fio">САМУСЬ Дарья Владимировна</td><td class="fio">МОНТЕ КРИСТО</td><td class="rank">МС</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN3*-S</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI3*(A)</li><li>Кросс: высота 115 см, преп. 20, прыжк. 27, дистанция 3560 м, ск. 550 м/мин, н.вр. 06&#x27;29&quot;, разметка синяя</li><li>Конкур: высота 120 см, дистанция 520 м, ск. 350 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЗАРЯ Ева Витальевна</td><td class="fio">ВИШЕНКА-12</td><td class="rank">1</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ВАСИЛЬЕВ Иван Александрович</td><td class="fio">ЮВЕЛИРНАЯ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">20 — 23 июня 2024 г. — <a href="https://www.equestrian.ru/files/2024/34659.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и первенство ПФО по троеборью/Всеросс.сор-ния по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN J 2*- S</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* S, Тест FEI 2* А</li><li>Кросс: высота 110 см, преп. 21, прыжк. 27, дистанция 3000 м, ск. 520 м/мин, н.вр. 05&#x27;47&quot;, разметка белая</li><li>Конкур: высота 115 см, дистанция 470 м, ск. 350 м/мин, н.вр. 81 сек., пред.норма 162 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">БАТТЕРФЛЯЙ</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 2*- S</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* S, Tест FEI 2* А</li><li>Кросс: высота 110 см, преп. 21, прыжк. 27, дистанция 3000 м, ск. 520 м/мин, н.вр. 05&#x27;47&quot;, разметка белая</li><li>Конкур: высота 115 см, дистанция 470 м, ск. 350 м/мин, н.вр. 81 сек., пред.норма 162 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КОСАРЕВА Олеся</td><td class="fio">ЛОГАРИФМ-16</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ЛИПАТОВА Анна</td><td class="fio">САНТИНИ-14</td><td class="rank">1</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN90 (Детский класс 90/ДК90)</div>
+<ul class="tech-specs"><li>Выездка: CN90 Intro, Тест FEI 1*</li><li>Кросс: высота 90 см, преп. 9, прыжк. 10, дистанция 770 м, ск. 400 м/мин, н.вр. 01&#x27;56&quot;, разметка голубая</li><li>Конкур: высота 90 см, дистанция 340 м, ск. 325 м/мин, н.вр. 63 сек., пред.норма 126 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ФЕДОРИН Сергей</td><td class="fio">БАЛЛИСТИКА-19</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КОСАРЕВА Олеся</td><td class="fio">ОБЕРОН-19</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ЖУРАВЛЕВА Мирослава</td><td class="fio">ХАРБСТКЕНИНГ-18</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ПЕРШИНА Мария</td><td class="fio">ГАВРОШ-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">ГЛУХОВА Злата</td><td class="fio">ЛА ХАРА-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">ЛЕЙСЛЕ Ульяна</td><td class="fio">ОБЕРХОФ-16</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">25 — 28 июня 2024 г. — <a href="https://www.equestrian.ru/events/2024-Vserossijskie_sor-nija_po_troeborju_Novosibirsk/" target="_blank" rel="noopener noreferrer">Всероссийские сор-ния по троеборью (Новосибирск)</a></h2>
+<div class="class-badge">троеборьe — CCN 3*-S</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI 3* (A)</li><li>Кросс: высота 115 см, преп. 20, прыжк. 27, дистанция 3490 м, ск. 550 м/мин, н.вр. 06&#x27;21&quot;</li><li>Конкур: высота 120 см, дистанция 450 м, ск. 350 м/мин, н.вр. 78 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МАСЛОВ Матвей</td><td class="fio">САН ФЛАЙ-15</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 мужчины/женщины (S) (16 лет и старше - 2008 г.р. и старше)</div>
+<ul class="tech-specs"><li>Выездка: CN90, Тест FEI CCI 1* 2022</li><li>Кросс: высота 90 см, преп. 11, прыжк. 13, дистанция 1020 м, ск. 400 м/мин, н.вр. 02&#x27;33&quot;</li><li>Конкур: высота 90 см, дистанция 400 м, ск. 325 м/мин, н.вр. 74 сек., пред.норма 148 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЮДИНА Светлана</td><td class="fio">АКАДЕМИЯ-17</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">ИППОЛИТОВА Ксения</td><td class="fio">БАХЕТЛЕ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ЕКИШЕВ Игнат</td><td class="fio">БРЭЙ-17</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ЕГОЯН Евгения</td><td class="fio">ПОКЕР-17</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">МАСЛОВ Матвей</td><td class="fio">СКАРЛЕТ-17</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">КРАСНОЩЕКОВА Ангелина</td><td class="fio">ЗАТЕЯ-09</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 2* L юноши/девушки (J) (14-18 лет - 2006-2010 г.р.)</div>
+<ul class="tech-specs"><li>Выездка: CCN2* L, Тест FEI CCI 2* (A) 2022</li><li>Кросс: высота 110 см, преп. 18, прыжк. 25, дистанция 3900 м, ск. 520 м/мин, н.вр. 07&#x27;30&quot;</li><li>Конкур: высота 115 см, дистанция 450 м, ск. 350 м/мин, н.вр. 78 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ВАРАКСИНА Дарья Денисовна</td><td class="fio">КАЛЕЙДОСКОП-14</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ИВАНОВА Александра Сергеевна</td><td class="fio">ТЕМПЕРАМЕНТ-11</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ТОКАРЕВА Екатерина Евгеньевна</td><td class="fio">МАГИЯ-15</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">ПАВЛИНА Мария Александровна</td><td class="fio">АВЕНТОДОР-16</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">СТАРОДУБЦЕВА Маргарита Максимовна</td><td class="fio">Эль-14</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 CH</div>
+<ul class="tech-specs"><li>Выездка: CN100, Тест FEI CCI 1* 2022</li><li>Кросс: высота 100 см, преп. 14, прыжк. 18, дистанция 2015 м, ск. 500 м/мин, н.вр. 04&#x27;02&quot;</li><li>Конкур: высота 105 см, дистанция 450 м, ск. 350 м/мин, н.вр. 28 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МИРОШНИЧЕНКО Валерия</td><td class="fio">ЧЕЛЕНТАНО-16</td><td class="rank">3</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ГОРОДИЛОВ Михаил</td><td class="fio">ЭКЛЕР-13</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">МИРОШНИЧЕНКО Ксения</td><td class="fio">КЛОНДАЙК-07</td><td class="rank">3</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN Y 2* L</div>
+<ul class="tech-specs"><li>Выездка: 2024 FEI CCI 2* (A) 2024</li><li>Кросс: высота 110 см, преп. 18, прыжк. 25, дистанция 3900 м, ск. 520 м/мин, н.вр. 07&#x27;30&quot;</li><li>Конкур: высота 115 см, дистанция 450 м, ск. 350 м/мин, н.вр. 78 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">УСОВА Дарья</td><td class="fio">АНЗАК-14</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">МИШУТКИНА Анжелика</td><td class="fio">ДРИМ БОЙ-13</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 1*</div>
+<ul class="tech-specs"><li>Выездка: CNN 1*, Тест FEI CCI 1* 2022</li><li>Кросс: высота 105 см, преп. 16, прыжк. 21, дистанция 2045 м, ск. 500 м/мин, н.вр. 04&#x27;06&quot;</li><li>Конкур: высота 110 см, дистанция 450 м, ск. 350 м/мин, н.вр. 78 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МИЗГЕР Дарья</td><td class="fio">ЗНАХАРЬ-14</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ВОЙТКИВ Елизавета</td><td class="fio">САПЁР 31-13</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">АНАНЬЕВА Таисия</td><td class="fio">БЛЭКБЭРРИ-17</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ПАНКРАТОВА Ульяна</td><td class="fio">СКАРЛЕТТ-15</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">КОРЯБИНА Виктория</td><td class="fio">КАПИТАЛ-11</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">РОМАШЕВА Валерия</td><td class="fio">КАВАЛЕР-13</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">СТАРОДУБЦЕВА Маргарита</td><td class="fio">ГАМЛЕТ-12</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">8</td><td class="fio">КУРБАНОВА Алиса</td><td class="fio">ПАРСИВАЛЬ-12</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">9</td><td class="fio">ГОНЧАР Мария</td><td class="fio">ОБЕР-ШЕНІК-17</td><td class="rank">1</td><td class="rank">III</td></tr>
+<tr><td class="num">10</td><td class="fio">КОЛЕСНИКОВА Кристина</td><td class="fio">РЕЗОНАТОР-04</td><td class="rank">1</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 CH мальчики/девочки (Ch) (12-14 лет - 2010-2012 г.р.)</div>
+<ul class="tech-specs"><li>Выездка: CN90, Тест FEI CCI 1* 2022</li><li>Кросс: высота 90 см, преп. 11, прыжк. 13, дистанция 1020 м, ск. 400 м/мин, н.вр. 02&#x27;33&quot;</li><li>Конкур: высота 90 см, дистанция 400 м, ск. 325 м/мин, н.вр. 74 сек., пред.норма 148 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ГОРОДИЛОВ Михаил</td><td class="fio">ВОСТОРГ-06</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КАШИРСКАЯ София</td><td class="fio">ЗЛАТОГЛАВАЯ-07</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">БЕРЕЗОВСКАЯ Полина</td><td class="fio">ДАКОТА-08</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">МАТВЕЕВ Димитрий</td><td class="fio">ЖАКАН-16</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">ЛЫСЕНКО Таисия</td><td class="fio">ВЕРСАЛЬ-12</td><td class="rank">2</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">4 — 7 июля 2024 г. — <a href="https://www.equestrian.ru/events/2024-Evrazijskie_Igry_Evrazijskoe_Pervenstvo_Studencheskie_sorevnovanija_po_troeborju/" target="_blank" rel="noopener noreferrer">Евразийские Игры, Евразийское Первенство/Студенческие соревнования по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN 2*L-J, Троеборье - HL, юноши, девушки 14-18 лет</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КРАСИЛЬНИКОВА Варвара</td><td class="fio">АТЛАНТА</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ПОТЕТЕНЬКИНА Виктория</td><td class="fio">ХЕППИ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">СУРКОВА София</td><td class="fio">РОБЕРТС</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">19 — 21 июля 2024 г. — <a href="https://www.equestrian.ru/files/2024/34871.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Москвы по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN3*-S</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">НАБАТЧИКОВА Екатерина Павловна</td><td class="fio">ЗВЕЗДНЫЙ ДОЖДЬ-10</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КНЯЗЕВА Анастасия Константиновна</td><td class="fio">ВЫПУСК-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">КОЗЫРЕВА Луков Павловна</td><td class="fio">ШИРМА-14</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ВАСИЛЬЕВ Иван Александрович</td><td class="fio">НОВЕЛИРНАЯ-13</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+<tr><td class="num">5</td><td class="fio">ЖАРТЫШЕВА Надежда Валерьевна</td><td class="fio">ЛОТУС-06</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">1</td><td class="fio">ЛИПАТОВА Анна Александровна</td><td class="fio">САНТИНИ-14</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (Легкий класс 100 (ЛК100) YH)</div>
+<ul class="tech-specs"><li>Кросс: высота 100 см, преп. 20, прыжк. 26, дистанция 2450 м, ск. 500 м/мин</li><li>Конкур: высота 105 см, дистанция 450 м, ск. 325 м/мин, н.вр. 83 сек., пред.норма 166 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЖУРАВЛЕВА Милослава Игоревна</td><td class="fio">ХАРЕСТКЕНИНГ-18</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">НАДЕЕВА Мария Александровна</td><td class="fio">КОСТАРЭ-18</td><td class="rank">II</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (Легкий класс 100 (ЛК100))</div>
+<ul class="tech-specs"><li>Кросс: высота 100 см, дистанция 1450 м, ск. 500 м/мин, н.вр. 04&#x27;54&quot;</li><li>Конкур: высота 105 см, дистанция 450 м, ск. 350 м/мин</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МИХЕЕВА Елизавета Михайловна</td><td class="fio">ТРИСТАН-14</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ФИЛИППОВА Ксения Владимировна</td><td class="fio">БИГУЛ-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">ЧУВАТОВА Владислава Антоновна</td><td class="fio">АВЕ МАРИЯ-14</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">САМОНОВА Кристина Сергеевна</td><td class="fio">КОНКЕР-115</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">СИДОРОВА Полина Николаевна</td><td class="fio">МОНБЛАН-12</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ГАЛЬЦОВА Александра Максимовна</td><td class="fio">БЕРГЕНА-13</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">29 июля — 4 августа 2024 г. — <a href="https://www.equestrian.ru/events/2024-Spartakiada_sredi_junoshej_po_vyezdke_i_troeborju_XI_LETNJaJa_SPARTAKIADA_uchaschihsja_2024_GODA/" target="_blank" rel="noopener noreferrer">Спартакиада среди юношей (XI ЛЕТНЯЯ СПАРТАКИАДА учащихся 2024 ГОДА)</a></h2>
+<div class="class-badge">троеборьe — Неизвестный класс</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">40</td><td class="fio">ОРЛОВА Марианна Артемовна</td><td class="fio">БАНЗАЙ-15</td><td class="rank">1</td><td class="rank">3</td></tr>
+<tr><td class="num">41</td><td class="fio">ХОХЛАЧЕВА Екатерина Витальевна</td><td class="fio">БИНГО-13</td><td class="rank">КМС</td><td class="rank">3</td></tr>
+<tr><td class="num">42</td><td class="fio">ШЕВЕРДЯКОВА Дарья Кирилловна</td><td class="fio">СИЛЬВЕР-12</td><td class="rank">1</td><td class="rank">3</td></tr>
+<tr><td class="num">43</td><td class="fio">ПОДБЕРЕЗКИНА Злата Дмитриевна</td><td class="fio">ВИЛЛИ ВЕБЕР-09</td><td class="rank">КМС</td><td class="rank">3</td></tr>
+<tr><td class="num">17</td><td class="fio">ЗАКИРОВА Мария Радиковна</td><td class="fio">РОЯЛ ДЕНС-11</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">18</td><td class="fio">ШАДСКАЯ Арина Юрьевна</td><td class="fio">ВИЛУНА ІІ-16</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">19</td><td class="fio">ШАЛДИНА Елизавета Алексеевна</td><td class="fio">ФАКТОТУМ-11</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">20</td><td class="fio">ВОЛЫНЩИКОВА Ксения Михайловна</td><td class="fio">ВОЯЖ-12</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">21</td><td class="fio">САННИКОВА Ульяна Александровна</td><td class="fio">БРАСЛЕТ-07</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">22</td><td class="fio">ОСОВСКИЙ Аркадий Алексеевич</td><td class="fio">ЛЮБАВА-15</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+<tr><td class="num">23</td><td class="fio">ДМИТРИЕВ Матвей Сергеевич</td><td class="fio">БИЗНЕС-11</td><td class="rank">КМС</td><td class="rank">2</td></tr>
+<tr><td class="num">24</td><td class="fio">ГРОМОВА Мария Ильинична</td><td class="fio">ЭКСЕЛЬСИОР-11</td><td class="rank">КМС</td><td class="rank">2</td></tr>
+<tr><td class="num">24</td><td class="fio">ПОПОВА Варвара Александровна</td><td class="fio">ФИБФИЛС-04</td><td class="rank">1</td><td class="rank">2</td></tr>
+<tr><td class="num">26</td><td class="fio">КОРОЛЕВА Дарья Андреевна</td><td class="fio">ДАВИНЧЕ-12</td><td class="rank">1</td><td class="rank">2</td></tr>
+<tr><td class="num">27</td><td class="fio">КОВАЧ Леон Беньяминович</td><td class="fio">САН КВИДАМ-14</td><td class="rank">1</td><td class="rank">2</td></tr>
+<tr><td class="num">28</td><td class="fio">ЕРМАКОВА Елизавета Романовна</td><td class="fio">БАФАНА-10</td><td class="rank">2</td><td class="rank">2</td></tr>
+<tr><td class="num">29</td><td class="fio">КЛОВАНИЧ Полина Дмитриевна</td><td class="fio">ВАЛЕРИ-14</td><td class="rank">1</td><td class="rank">2</td></tr>
+<tr><td class="num">30</td><td class="fio">ЕРШОВА Дарья Михайловна</td><td class="fio">КЛАЙБЕРРИ-13</td><td class="rank">1</td><td class="rank">2</td></tr>
+<tr><td class="num">31</td><td class="fio">ХОХЛАЧЕВА Екатерина Витальевна</td><td class="fio">БИНГО-13</td><td class="rank">КМС</td><td class="rank">2</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 2*- L</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* L, Тест FEI 2* (В)</li><li>Кросс: высота 110 см, преп. 23, прыжк. 30, дистанция 3800 м, ск. 520 м/мин, н.вр. 07&#x27;19&quot;</li><li>Конкур: высота 115 см, дистанция 500 м, ск. 350 м/мин, н.вр. 86 сек., пред.норма 172 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">7</td><td class="fio">СТАРОДУБЦЕВА Маргарита Максимовна</td><td class="fio">ЭЛЬ-14</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">17 — 20 августа 2024 г. — <a href="https://www.equestrian.ru/files/2024/35192.pdf" target="_blank" rel="noopener noreferrer">Кубок Сибири по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN 2*S</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI 2* (А 2022) (в ред. 2024)</li><li>Кросс: высота 110 см, преп. 19, прыжк. 26, дистанция 2650 м, ск. 520 м/мин, н.вр. 05&#x27;06&quot;, разметка синяя</li><li>Конкур: высота 115 см, дистанция 400 м, ск. 350 м/мин, н.вр. 74 сек., пред.норма 148 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПАКОВА Мария</td><td class="fio">БХО ПЕШТ-11</td><td class="rank">II</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90</div>
+<ul class="tech-specs"><li>Выездка: CN 90, Тест FEI CCI 1* 2022 (в ред. 2024)</li><li>Кросс: преп. 10, прыжк. 11, дистанция 1500 м, ск. 400 м/мин, н.вр. 03&#x27;45&quot;, разметка ярко желтая</li><li>Конкур: высота 90 см, дистанция 350 м, ск. 325 м/мин, н.вр. 71 сек., пред.норма 142 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПОКРАТОВА Ульяна</td><td class="fio">БЛЭК ОРРИ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">НЬЕВА Таксия</td><td class="fio">Эванс</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">НИСЕННИК Екатерина</td><td class="fio">—</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">АОНОЩЕКОВА Ангелина</td><td class="fio">ЗАТЕ -11</td><td class="rank">—</td><td class="rank">III</td></tr>
+<tr><td class="num">5</td><td class="fio">КОРОТЫЧ Дарья</td><td class="fio">ЛУНН IP СОНАТА-16</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">КТЯБИНА Ксения</td><td class="fio">ДАКО ТА-ОВ</td><td class="rank">—</td><td class="rank">3</td></tr>
+<tr><td class="num">7</td><td class="fio">АСТОВА Анна</td><td class="fio">ПОРТ ТЕНД-18</td><td class="rank">—</td><td class="rank">3</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">5 — 8 сентября 2024 г. — <a href="https://www.equestrian.ru/events/2024-Chempionat_i_Pervenstvo_Rossii_po_troeborju/" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство России по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN Y 3*-L (CCN YR 3*-L)</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI3*(A)</li><li>Кросс: высота 115 см, преп. 23, прыжк. 33, дистанция 5000 м, ск. 550 м/мин, н.вр. 09&#x27;06&quot;, разметка бежевая</li><li>Конкур: высота 120 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МАХОВЫХ Анастасия Александровна</td><td class="fio">ОКЕАНИЯ-17</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">2</td><td class="fio">ВАСИЛЬЕВ Иван Александрович</td><td class="fio">ЮВЕЛИРНАЯ</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">3</td><td class="fio">ГОРЛУШКИНА Марина Игоревна</td><td class="fio">НОБЕЛЬ ІІ-17</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCNJ2*-L</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI2*(A)</li><li>Кросс: высота 110 см, преп. 19, прыжк. 27, дистанция 3640 м, ск. 520 м/мин, н.вр. 07&#x27;00&quot;, разметка сиреневая</li><li>Конкур: высота 115 см, дистанция 450 м, ск. 350 м/мин, н.вр. 78 сек., пред.норма 156 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КРАСИЛЬНИКОВА Варвара Петровна</td><td class="fio">АТЛАНТА-14</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">СУРКОВА София Александровна</td><td class="fio">РОБЕРТС-16</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">МАВРИНА Василиса Алексеевна</td><td class="fio">ОВОД-06</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">БАТЕРФФЛЯЙ-12</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">ПОТЕТЕНЬКИНА Виктория Игоревна</td><td class="fio">ХЕППИ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">7</td><td class="fio">АНДРЕЕВСКАЯ Ангелина Евгеньевна</td><td class="fio">РОЯЛ КОННЕКШН 2</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+<tr><td class="num">8</td><td class="fio">ШМИДТ Владислав Алексеевич</td><td class="fio">ТОНИКА</td><td class="rank">I</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">11 — 15 сентября 2024 г. — <a href="https://www.equestrian.ru/events/2024-Vseross_sor-nija_po_troeborju_KSK_Dubrava/" target="_blank" rel="noopener noreferrer">Всеросс. сор-ния по троеборью (КСК Дубрава)</a></h2>
+<div class="class-badge">троеборьe — CN 90 (Детский класс 90/ДК90)</div>
+<ul class="tech-specs"><li>Выездка: Тест FEI 1* (А) 2022</li><li>Кросс: высота 90 см, преп. 12, прыжк. 14, дистанция 1170 м, ск. 400 м/мин, н.вр. 02&#x27;56&quot;</li><li>Конкур: высота 90 см, дистанция 410 м, ск. 325 м/мин, н.вр. 76 сек., пред.норма 152 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЮРЬЕВА Софья</td><td class="fio">ГАБАРИТ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">ШЕЖЕЛИНА Алена</td><td class="fio">ОДИН-20</td><td class="rank">II</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">КРОПИЧЕВА Владислава</td><td class="fio">АНАБЕЛЬ-09</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">ЛИСУНОВА Арина</td><td class="fio">РАПС-15</td><td class="rank">—</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 1* Intro</div>
+<ul class="tech-specs"><li>Выездка: Test FEI 1* (A) 2022</li><li>Кросс: высота 105 см, преп. 17, прыжк. 22, дистанция 2220 м, ск. 500 м/мин, н.вр. 04&#x27;27&quot;</li><li>Конкур: высота 110 см, дистанция 490 м, ск. 350 м/мин</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ШМИДТ Владислав</td><td class="fio">НАХОДКА-36</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КРУГЛОВА Элита</td><td class="fio">ЛА ХАРА-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">26 — 29 сентября 2024 г. — <a href="https://www.equestrian.ru/files/2024/35418.pdf" target="_blank" rel="noopener noreferrer">Финал Maxima Masters/Междунар.сор-ния/Чемпионат России по троеборью (молодые лошади)</a></h2>
+<div class="class-badge">троеборьe — CCN2*-L</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI2*(A)</li><li>Кросс: высота 110 см, преп. 23, прыжк. 29, дистанция 3760 м, ск. 520 м/мин, н.вр. 07&#x27;14&quot;, разметка фиолетовая</li><li>Конкур: высота 115 см, дистанция 550 м, ск. 350 м/мин, н.вр. 95 сек., пред.норма 190 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Максимова Анастасия Васильевна</td><td class="fio">Баварец</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">Вакин Максим Александрович</td><td class="fio">Ресурс-17</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">Шклянкова Анастасия Михайловна</td><td class="fio">Диор</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">Габдуллина Эмилия Рашидовна</td><td class="fio">Халиф-16</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">Ртищев Георгий Владимирович</td><td class="fio">Энджэр</td><td class="rank">МС</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 (ЛЕГКИЙ КЛАСС 100)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1*</li><li>Кросс: высота 100 см, преп. 15, прыжк. 20, дистанция 2400 м, ск. 500 м/мин, н.вр. 04&#x27;48&quot;, разметка зеленая</li><li>Конкур: высота 105 см, дистанция 500 м, ск. 325 м/мин, н.вр. 93 сек., пред.норма 186 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МАНУЛИК Елена Тадеушевна</td><td class="fio">АСБЕСТ</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ФЕДОРИН Сергей Иванович</td><td class="fio">БАЛЛИСТИКА</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">ВОРОНЬКО Роман Игоревич</td><td class="fio">ПРОМЕТЕЙ</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">БОКОВА Татьяна Александровна</td><td class="fio">ВАН ТОП ВАЛЕРИ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">ХАЛИКОВ Альберт Тимергалеевич</td><td class="fio">БЕТЕЛЬГЕЛЬЗЕ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ГАБДУЛЛИНА Эмилия Рашидовна</td><td class="fio">ЭСТЕЛЛА</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">ЖУРАВЛЕВА Милослава Игоревна</td><td class="fio">ХАРБСТКЕНИНГ</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">ГАБДУЛЛИНА Эмилия Рашидовна</td><td class="fio">КЛАРА</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">9</td><td class="fio">ВАСИЛЬЕВ Сергей Дмитриевич</td><td class="fio">РАТНЕЙТ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">10</td><td class="fio">ЕРМИЛОВА Анастасия Алексеевна</td><td class="fio">ПЕРЦИСТАУН РОККЕТ</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">11</td><td class="fio">НАСТЕНКО Михаил Владимирович</td><td class="fio">ЭЛИС ИН ВАНДЕРЛАНД</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">12</td><td class="fio">РОМАНЧУКОВА Валерия Александровна</td><td class="fio">БОФА</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">1</td><td class="fio">ГАВРИЛИНА София Алексеевна</td><td class="fio">ЗОЛА-07</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ЕЖОВА Милана Владимировна</td><td class="fio">ПЛАНЕТА-14</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">МАВРИНА Василиса Алексеевна</td><td class="fio">ОВОД-06</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">БАРЕЛЬЕФ</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">САФОНОВА Кристина Сергеевна</td><td class="fio">ЮНКЕР-15</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ГАЛЬЦОВА Александра Максимовна</td><td class="fio">БЕРГЕНА-13</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 (ДЕТСКИЙ КЛАСС 90)</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1*</li><li>Кросс: высота 90 см, преп. 12, прыжк. 13, дистанция 1300 м, ск. 420 м/мин, н.вр. 03&#x27;06&quot;, разметка желтая</li><li>Конкур: высота 90см, дистанция 440 м, ск. 325 м/мин, н.вр. 82 сек., пред.норма 164 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">МИРОНЕНКО Анджела Лельевна</td><td class="fio">ДЕРЕК-03</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">САУЛЕНКО Лидия Юрьевна</td><td class="fio">ФИЛИППИНА М</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ОМЕЛЬЧУК Анна Сергеевна</td><td class="fio">ПАННИ-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">ПОЛЯКОВА Анастасия Мамуковна</td><td class="fio">ФЕРИ ДЕ-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КОВАЛЬКОВА Мария Сергеевна</td><td class="fio">САНШАЙН-16</td><td class="rank">II</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ДОРОХИНА Екатерина Алексеевна</td><td class="fio">ВИШЕНКА-12</td><td class="rank">III</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">СЕМЕНЬКО Анастасия Андреевна</td><td class="fio">БЕСПОДОБНАЯ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">НОВИКОВА Дарья Андреевна</td><td class="fio">ХЕНИГВАЙН-09</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">КОРОТЕНКОВА Надежда Алексеевна</td><td class="fio">ГЛОБУС-06</td><td class="rank">II</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ЗАРЯ Ева Витальевна</td><td class="fio">МЕТЕЛЬ-17</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">КУЛЬТИКОВА Алина Дмитриевна</td><td class="fio">КУАНТРО</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">10 — 13 октября 2024 г. — <a href="https://www.equestrian.ru/files/2024/35544.pdf" target="_blank" rel="noopener noreferrer">Кубок Главы Рамнеского г.о. по троеборью</a></h2>
+<div class="class-badge">троеборьe — ПК80 (ПОНИ КЛАСС 80)</div>
+<ul class="tech-specs"><li>Выездка: 2022 FES CC11</li><li>Кросс: высота 80 см, преп. 11, прыжк. 11, дистанция 1220 м, ск. 400 м/мин, н.вр. 03&#x27;03&quot;, разметка белая</li><li>Конкур: высота 80 см, дистанция 410 м, ск. 325 м/мин, н.вр. 76 сек., пред.норма 152 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ВЛАСОВА Софья Сергеевна</td><td class="fio">ЭПКОРАЛЛ-17</td><td class="rank">2</td><td class="rank">1</td></tr>
+<tr><td class="num">2</td><td class="fio">МАКАРОВА Вероника Павловна</td><td class="fio">СУЗДАЛЬ-15</td><td class="rank">1</td><td class="rank">1</td></tr>
+<tr><td class="num">3</td><td class="fio">ГРИГОРЬЕВА Анна Максимовна</td><td class="fio">ПАТРИК-10</td><td class="rank">3</td><td class="rank">1</td></tr>
+<tr><td class="num">4</td><td class="fio">КИСЕЛЕВА Дарья Павловна</td><td class="fio">Пиокон-17</td><td class="rank">2</td><td class="rank">1</td></tr>
+<tr><td class="num">5</td><td class="fio">АФОНИНА Варвара Алексеевна</td><td class="fio">ХОЛМОПОР-17</td><td class="rank">1</td><td class="rank">1</td></tr>
+<tr><td class="num">6</td><td class="fio">ЯКОВЛЕВА Варвара Николаевна</td><td class="fio">ЛАККИ СТРАЙК-15</td><td class="rank">3</td><td class="rank">1</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">11 — 13 октября 2024 г. — <a href="https://www.equestrian.ru/files/2024/35636.pdf" target="_blank" rel="noopener noreferrer">Региональные соревнования по троеборью &quot;Кубок Губернатора Брянской области&quot;</a></h2>
+<div class="class-badge">троеборьe — CN100 (Легкий класс 100/ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: 2024 FEI CCI1* A</li><li>Кросс: высота 100 см, преп. 18, прыжк. 22, дистанция 2640 м, ск. 500 м/мин, н.вр. 05&#x27;17&quot;, разметка зеленая</li><li>Конкур: высота 105 см, дистанция 485 м, ск. 325 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">АЛЕКСАНДРОВА Ангелина Денисовна</td><td class="fio">КОКО МАДМУАЗЕЛЬ</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ПРОСЯННИКОВА Варвара Сергеевна</td><td class="fio">ДЕФИЗ-16</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN90 (Детский класс 90/ДК90)</div>
+<ul class="tech-specs"><li>Выездка: 2024 FEI CCI1* A</li><li>Кросс: высота 90 см, преп. 13, прыжк. 15, дистанция 1000 м, ск. 400 м/мин, н.вр. 02&#x27;30&quot;, разметка розовая</li><li>Конкур: высота 90 см, дистанция 440 м, ск. 325 м/мин, н.вр. 82 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПОПОВ Сергей Сергеевич</td><td class="fio">ПЛАВСК-13</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">МАКСИМОВА Диана Юрьевна</td><td class="fio">ХОНГХА-04</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">САВЧЕНКО Ксения Михайловна</td><td class="fio">СЮЗАННА-20</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">РОГУЛЕВА Ирина Игоревна</td><td class="fio">САЙКЛОНИК SP-20</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">1</td><td class="fio">СУХАНКИНА Ангелина Николаевна</td><td class="fio">ЛЮБОВНИЦА-14</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">РУССО Никита Вячеславович</td><td class="fio">ГУД БОЙ-11</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">17 — 20 октября 2024 г. — <a href="https://www.equestrian.ru/files/2024/35698.pdf" target="_blank" rel="noopener noreferrer">Всеросс. сор-ния по троеборью (РСО-Алания)</a></h2>
+<div class="class-badge">троеборьe — CCN 3* L</div>
+<ul class="tech-specs"><li>Выездка: CCN 3* S/L, Тест FEI 3* (A) 2021</li><li>Кросс: высота 115 см, преп. 22, прыжк. 32, дистанция 4400 м, ск. 550 м/мин, н.вр. 08&#x27;00&quot;</li><li>Конкур: высота 120 см, дистанция 460 м, ск. 350 м/мин, н.вр. 79 сек., пред.норма 158 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">КНЯЗЕВА Анастасия</td><td class="fio">РУБЛЕВКА-14</td><td class="rank">КМС</td><td class="rank">1</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 2*- L</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* L, Тест FEI 2* (A) 2021</li><li>Кросс: высота 110 см, преп. 20, прыжк. 28, дистанция 4180 м, ск. 520 м/мин, н.вр. 08&#x27;03&quot;</li><li>Конкур: высота 115 см, дистанция 460 м, ск. 350 м/мин, н.вр. 79 сек., пред.норма 158 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ХАЛИКОВ Альберт</td><td class="fio">БЕТЕЛЬГЕЛЬЗЕ-18</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">МАРТЫШЕВ Валерий</td><td class="fio">ИРЕГО-17</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ГУРДОГЛАНЯН Диана</td><td class="fio">ЛАКИ СТРАЙК-11</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 (Легкий класс 100/ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: CN 100, Тест FEI 1* 2022</li><li>Кросс: высота 100 см, преп. 14, прыжк. 18, дистанция 3000 м, ск. 500 м/мин, н.вр. 06&#x27;00&quot;</li><li>Конкур: высота 105 см, дистанция 460 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ТМЕНОВА Диана</td><td class="fio">ДОЛЬМЕН-18</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">РОМАНЧУКОВА Валерия</td><td class="fio">БОФА-17</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 J (Легкий класс 100/ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: CN 100, Тест FEI 1* 2022</li><li>Кросс: высота 100 см, преп. 14, прыжк. 18, дистанция 3000 м, ск. 500 м/мин, н.вр. 06&#x27;00&quot;</li><li>Конкур: высота 105 см, дистанция 460 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ВОЛОДИН Артем</td><td class="fio">ОЗОН-10</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ВОЛОДИН Артем</td><td class="fio">ЭЛЬБРУС-15</td><td class="rank">II</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">13 — 19 марта 2025 г. — <a href="https://www.equestrian.ru/files/2025/36397.pdf" target="_blank" rel="noopener noreferrer">Всероссийское физкультурное мероприятие по троеборью &quot;Зимний Кубок КСК &quot;Дубрава&quot;</a></h2>
+<div class="class-badge">троеборьe — CXN 80 Ch</div>
+<ul class="tech-specs"><li>Выездка: Tect FET 1 (A) 2022 с изм. 2004 года</li><li>Кросс: высота 80 см, преп. 12, прыжк. 10</li><li>Конкур: высота 80 см, дистанция 400 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Кочкина Алиса</td><td class="fio">ЛЕДИ ЧИН</td><td class="rank">1</td><td class="rank">1</td></tr>
+<tr><td class="num">2</td><td class="fio">Артемьева Александра</td><td class="fio">ПАСИФИК</td><td class="rank">1</td><td class="rank">1</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">23 — 27 апреля 2025 г. — <a href="https://www.equestrian.ru/files/2025/36581.pdf" target="_blank" rel="noopener noreferrer">Всероссийские спортивные соревнования по троеборью посвященные памяти Кибизова Фердинанда Ессоевича</a></h2>
+<div class="class-badge">троеборьe — CCN Y(YR) 2*- S</div>
+<ul class="tech-specs"><li>Выездка: CCN 2* 5. Тест FEI 2* (В) с изм. 2024</li><li>Кросс: дистанция 2950 м, ск. 520 м/мин, н.вр. 05&#x27;42&quot;</li><li>Конкур: высота 115 см, н.вр. 33 сек., пред.норма 166 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Володин Артем Александрович</td><td class="fio">ЭЛЬБРУС-15</td><td class="rank">II</td><td class="rank rank-kms">КМС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 J (Легкий класс 100/ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: CN 100, Тест FEI 1 2022</li><li>Кросс: высота 100 см, преп. 14, прыжк. 18, дистанция 2070 м, ск. 500 м/мин, н.вр. 04&#x27;39&quot;</li><li>Конкур: высота 105 см, дистанция 480 м, ск. 325 м/мин, н.вр. 89 сек., пред.норма 178 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЛУЦЕНКО Арина Андреевна</td><td class="fio">КАРТЕЛЬ-12</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ИВАНОВА Кира Алексеевна</td><td class="fio">АПОГЕЙ-16</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">БАНДУРОВА Анастасия Вячеславовна</td><td class="fio">АРБАТ-16</td><td class="rank">I</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ИВАНОВА Кира Алексеевна</td><td class="fio">ЮНОНА-18</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">24 — 26 апреля 2025 г. — <a href="https://www.equestrian.ru/files/2025/36571.pdf" target="_blank" rel="noopener noreferrer">Кубок Брянской области по троеборью</a></h2>
+<div class="class-badge">троеборьe — CN100 (ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: Тест FEI CCI 1* 2022 (с изм. 2024)</li><li>Кросс: высота 100 см, преп. 17, прыжк. 24, дистанция 2570 м, ск. 500 м/мин, н.вр. 05&#x27;09&quot;, разметка желтая</li><li>Конкур: высота 105 см, дистанция 440 м, ск. 325 м/мин, н.вр. 82 сек, пред.норма 164 сек</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КАТЮХА Софья</td><td class="fio">АРПОЛИС ТОКИО-08</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КРЫЛОВА Анастасия</td><td class="fio">БЕСПОДОБНАЯ-19</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">СКУЛЬТИКОВА Алина</td><td class="fio">БАЛЬГАРД-05</td><td class="rank">1</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">1 — 4 мая 2025 г. — <a href="https://www.equestrian.ru/events/2025-Chempionat_Ramenskogo_gorodskogo_okruga_po_troeborju_Kubok_KSK_Sozvezdie_po_troeborju/" target="_blank" rel="noopener noreferrer">Кубок Московской области по троеборью/Чемпионат Раменского городского округа по троеборью. Кубок КСК «Созвездие» по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN2*-S</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI2* A</li><li>Кросс: высота 110 см, преп. 21, прыжк. 26, дистанция 2560 м, ск. 520 м/мин, н.вр. 05&#x27;10&quot;, разметка белая</li><li>Конкур: высота 115 см, дистанция 450 м, ск. 350 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">10</td><td class="fio">НАДЕЕВА Мария Александровна</td><td class="fio">КОСТАРЭ-18</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 1*-Intro</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1* (с изм. 2024)</li><li>Кросс: высота 105 см, преп. 17, прыжк. 20, дистанция 2440 м, ск. 500 м/мин, н.вр. 04&#x27;53&quot;, разметка синяя</li><li>Конкур: высота 110 см, дистанция 490 м, ск. 350 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Максимова Анастасия Васильевна</td><td class="fio">Форбс-17</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">Молчанова Анна Михайловна</td><td class="fio">Звездный дождь-10</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">Мустафаева Кира Вячеславовна</td><td class="fio">Черный лебедь-18</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">Бокова Татьяна Александровна</td><td class="fio">Эдельвейс-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">Заря Ева Витальевна</td><td class="fio">Лаурель-17</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">Бершадская Мария Алексеевна</td><td class="fio">Рамиро-17</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 (ЛЕГКИЙ КЛАСС 100)</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI1* (с изм. 2024)</li><li>Кросс: высота 100 см, преп. 17, прыжк. 21, дистанция 2040 м, ск. 500 м/мин, н.вр. 04&#x27;05&quot;, разметка красная</li><li>Конкур: высота 105 см, дистанция 450 м, ск. 325 м/мин, н.вр. 91 сек., пред.норма 182 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Кокдиярова Полина Алексеевна</td><td class="fio">Челестия-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">Рычкова (Неклюдова) Дарья Дмитриевна</td><td class="fio">Рубим-11</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">Швачка Ангелина Алексеевна</td><td class="fio">Лонин Де Вито-07</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">Саиленко Лидия Юрьевна</td><td class="fio">Филиппина М-20</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">Набатчикова Екатерина Павловна</td><td class="fio">Ника 11-19</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">Сердечнов Герман Александрович</td><td class="fio">Бигул-17</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">Сауленко Лидия Юрьевна</td><td class="fio">Клеопатра-18</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">Шпакова Яна Алексеевна</td><td class="fio">Асверта-19</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 (ЛЕГКИЙ КЛАСС 100) Юноши и девушки 14-18 лет</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1* (с изм. 2024)</li><li>Кросс: высота 100 см, преп. 17, прыжк. 21, дистанция 2040 м, ск. 500 м/мин, н.вр. 04&#x27;05&quot;, разметка красная</li><li>Конкур: высота 105 см, дистанция 490 м, ск. 325 м/мин, н.вр. 92 сек., пред.норма 182 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Михеева Елизавета Михайловна</td><td class="fio">Пристан</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">Петухова Александра Валерьевна</td><td class="fio">Кега</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">Степанова Варвара Сергеевна</td><td class="fio">Баста</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">Чуватова Владислава Антоновна</td><td class="fio">Аве Мария</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">Басюк Ася Сергеевна</td><td class="fio">Амбер</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">Киселева Варвара Максимовна</td><td class="fio">Капри Ван Обос</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">Муравьева Анастасия Станиславовна</td><td class="fio">Традиция</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 (ДЕТСКИЙ КЛАСС 90)</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1*</li><li>Кросс: высота 90 см, преп. 11, прыжк. 13, дистанция 1330 м, ск. 420 м/мин, н.вр. 03&#x27;10&quot;, разметка желтая</li><li>Конкур: высота 90см, дистанция 460 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ЖЕЛЕЗНЯК Екатерина Борисовна</td><td class="fio">ЛАУРЕХТ-12</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">МАРЧЕНКОВА Виктория Андреевна</td><td class="fio">КАЛИПСО-18</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">САУЛЕНКО Лидия Юрьевна</td><td class="fio">ОПАЛ-21</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ЕРМИЛОВА Анастасия Алексеевна</td><td class="fio">ЛОТУС-06</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">ГОЛУБКОВ Никита Александрович</td><td class="fio">ЭВАН-11</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">АБАКУШИНА Маргарита Дмитриевна</td><td class="fio">ГАСТРОЛЁР-20</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">11 — 14 мая 2025 г. — <a href="https://www.equestrian.ru/files/2025/38166.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Новосибирской области по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN3*-S</div>
+<ul class="tech-specs"><li>Выездка: CCN3*-Б, Тест FEI 3* (А) 2021</li><li>Кросс: высота 115 см, преп. 19, прыжк. 27</li><li>Конкур: высота 120 см, дистанция 510 м, ск. 350 м/мин, н.вр. 88 сек., пред.норма 176 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КУДРЯШОВА Яна Александровна</td><td class="fio">КАЛЕЙДОСКОП-14</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">СИДОРЧУК Ася Алексеевна</td><td class="fio">ЛОРДАГОН-14</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ТИЩЕНКО Яна Витальевна</td><td class="fio">АТЛАНТИДА-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">СИДОРЧУК Ася Алексеевна</td><td class="fio">ГОЛДЕН ХОРС-16</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ГУЛЯЕВА Анастасия Петровна</td><td class="fio">АДЕЛЬХАРД-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">30 мая — 1 июня 2025 г. — <a href="https://www.equestrian.ru/files/2025/37084.pdf" target="_blank" rel="noopener noreferrer">Региональные соревнования по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN 1* Intro</div>
+<ul class="tech-specs"><li>Выездка: CCN 1* Intro, CCN 1*J Intro, Tect FEI 1* 2022</li><li>Кросс: высота 105 см, преп. 19, прыжк. 23, дистанция 2300 м, ск. 500 м/мин, н.вр. 04&#x27;36&quot;, разметка оранжевая</li><li>Конкур: высота 110 см, дистанция 470 м, ск. 350 м/мин, н.вр. 81 сек., пред.норма 162 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МАЛЫШЕВ Никита Александрович</td><td class="fio">РАДОСТЬ-14</td><td class="rank">2</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 1* Intro J</div>
+<ul class="tech-specs"><li>Выездка: CCN 1* Intro, CCN 1*] Intro, Tect FEI 1* 2022</li><li>Кросс: высота 105 см, преп. 19, прыжк. 23, дистанция 2300 м, ск. 500 м/мин, н.вр. 04&#x27;36&quot;, разметка оранжевая</li><li>Конкур: высота 110 см, дистанция 470 м, ск. 350 м/мин, н.вр. 81 сек., пред.норма 162 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Вондакурова Кира Евгеньевна</td><td class="fio">Зимняя Зорька-13</td><td class="rank">1</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">5 — 8 июня 2025 г. — <a href="https://www.equestrian.ru/files/2025/36920.pdf" target="_blank" rel="noopener noreferrer">Кубок России по троеборью HL</a></h2>
+<div class="class-badge">троеборьe — CCN 4*- S</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">МИХАЙЛОВА Анастасия Юрьевна</td><td class="fio">ХЬЮЦИЛОПОТЧЛИ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ПАХОМОВ Илья Алексеевич</td><td class="fio">КАССИДИ</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ФЕДОРИН Сергей Иванович</td><td class="fio">КАДЕНС ПКЗ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">СИДОРЧУК Ася Алексеевна</td><td class="fio">ЛОРДАГОН</td><td class="rank">МС</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN Y (YR) 2*- S</div>
+<ul class="tech-specs"><li>Выездка: FEI 2* (В)</li><li>Кросс: высота 110 см, преп. 18, прыжк. 25, дистанция 3120 м, ск. 520 м/мин, н.вр. 06&#x27;00&quot;</li><li>Конкур: высота 115 см, дистанция 420 м, ск. 350 м/мин, н.вр. 72 сек., пред.норма 144 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">СЕРДЕЧНОВ Герман Александрович</td><td class="fio">КОРДЕТТО</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ЛУЦЕНКО Арина Андреевна</td><td class="fio">КАРТЕЛЬ</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ЧУВАТОВА Владислава Антоновна</td><td class="fio">БАТЕРФФЛЯЙ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">МАВРИНА Василиса Алексеевна</td><td class="fio">ОВОД</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 2*- L</div>
+<ul class="tech-specs"><li>Выездка: FEI 2* (В)</li><li>Кросс: высота 110 см, преп. 20, прыжк. 27, дистанция 3700 м, ск. 520 м/мин, н.вр. 07&#x27;07&quot;</li><li>Конкур: высота 115 см, дистанция 420 м, ск. 350 м/мин, н.вр. 72 сек., пред.норма 144 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ДРОЗДОВА Полина Владимировна</td><td class="fio">ЭМБАССИ 3</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">МАРТЫШЕВ Валерий Алексеевич</td><td class="fio">ИРЕГО</td><td class="rank">—</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">10 — 12 июня 2025 г. — <a href="https://www.equestrian.ru/files/2025/37108.pdf" target="_blank" rel="noopener noreferrer">Чемпионат Кузбасса по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN 2* L</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI2* L</li><li>Кросс: высота 110 см, преп. 20, прыжк. 28, дистанция 3640 м, ск. 520 м/мин, н.вр. 07&#x27;00&#x27;&#x27;</li><li>Конкур: высота 115 см, дистанция 430 м, ск. 350 м/мин, н.вр. 74 сек., пред.норма 148 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">ЖУКОВ Сергей Андреевич</td><td class="fio">КАРАКОМ-15</td><td class="rank">—</td><td class="rank">III</td></tr>
+<tr><td class="num">3</td><td class="fio">АНАНЬЕВА Таисия Вячеславовна</td><td class="fio">БЛЭКБЭРРИ-17</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100</div>
+<ul class="tech-specs"><li>Выездка: CN100, Тест FEI CCI1* 2022</li><li>Кросс: высота 100 см, преп. 15 преп, прыжк. 20 прыжк, дистанция 2150 м, ск. 500 м/мин, н.вр. 04&#x27;18&quot;</li><li>Конкур: высота 105 см, дистанция 430 м, ск. 325 м/мин, н.вр. 80 сек, пред.норма 160 сек</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Сорокина Полина Евгеньевна</td><td class="fio">Гойя-25</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">Балыбина Мария Константиновна</td><td class="fio">Прага-18</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">Шелевая Стефания Игоревна</td><td class="fio">Тарантино-15</td><td class="rank">3</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">Живагова Анна Романовна</td><td class="fio">Портленд-18</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 CH</div>
+<ul class="tech-specs"><li>Выездка: CN90, Тест FEI CCI* 2022</li><li>Кросс: высота до 90 см, преп. 10 преп, прыжк. 11 прыж, дистанция 1500 м, ск. 400 м/мин, н.вр. 03&#x27;45&quot;</li><li>Конкур: высота до 90 см, дистанция 340 м, ск. 325 м/мин, н.вр. 63 сек, пред.норма 126 сек</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ГАОЧУС Алина Денисовна</td><td class="fio">ПОРЯДОК-08</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">БАТУЕВА Мария Анатольевна</td><td class="fio">МАСТЕР-03</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ГАЕВИЧ Александра Борисовна</td><td class="fio">ДАНДЕРОС-15</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">23 — 26 июня 2025 г. — <a href="https://www.equestrian.ru/files/2025/37109.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Сибирского Федерального округа по троеборью</a></h2>
+<div class="class-badge">троеборьe — CCN Y 3* S юниоры/юниорки (YR) (16-21 года - 2009 - 2004 г.р.)</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI 3* А с изм. 2024</li><li>Кросс: высота 115 см, преп. 19, прыжк. 27, дистанция 3500 м, ск. 550 м/мин, н.вр. 06&#x27;22&quot;</li><li>Конкур: высота 120 см, дистанция 500 м, ск. 350 м/мин, н.вр. 86 сек., пред.норма 172 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Бараскина Дарья Денисовна</td><td class="fio">ЭЛЬ-14</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">2</td><td class="fio">Павлина Мария Александровна</td><td class="fio">АВЕНТОДОР-16</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">Стародубцева Маргарита Максимовна</td><td class="fio">АМЕЛИЯ-14</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">Кузнецова Мария Александровна</td><td class="fio">САН ФЛАЙ-15</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 3* S (мужчины/женщины (S) (16 лет и старше - 2009 г.р. и старше))</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI3* A</li><li>Кросс: высота 115 см, преп. 19, прыжк. 27, дистанция 3500 м, ск. 550 м/мин, н.вр. 06&#x27;22&quot;</li><li>Конкур: высота 120 см, дистанция 500 м, ск. 350 м/мин, н.вр. 86 сек., пред.норма 172 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">МОЗГОВОЙ Максим Алексеевич</td><td class="fio">ГАМБИТ-15</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 2* L</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI 2* A с изм. 2024</li><li>Кросс: высота 110 см, преп. 18, прыжк. 25, дистанция 3800 м, ск. 520 м/мин, н.вр. 07&#x27;19&#x27;&#x27;</li><li>Конкур: высота 115 см, дистанция 520 м, ск. 350 м/мин, н.вр. 90 сек., пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">БЕЛЯКОВА Светлана Александровна</td><td class="fio">МАРЦИПАН-14</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">МОРДВИНА Олеся Игоревна</td><td class="fio">КАЛА ДЕЛЬ ПИ - 12</td><td class="rank">МС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ЕТОИН Евгения Александровна</td><td class="fio">ПОКЕР-17</td><td class="rank">—</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">ГУЛЯЕВА Анастасия Петровна</td><td class="fio">ЧЕРНАЯ ТЕНЬ-14</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN 1* Intro</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI 1*</li><li>Кросс: преп. 15 преп 20 прыж, дистанция 2150 м, ск. 500 м/мин, н.вр. 04&#x27;18&quot;</li><li>Конкур: высота 110 см, дистанция 570 м, ск. 350 м/мин, н.вр. 90 сек, пред.норма 180 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ОСИПОВА Ирена</td><td class="fio">САНРАЙЗ-19</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ПЕТРАКОВА Надежда</td><td class="fio">ASCENT-09</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">МАЛЫШЕВ Никита</td><td class="fio">РАДОСТЬ-14</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">РОГОЖКИНА Светлана</td><td class="fio">ПОЛЕТ-18</td><td class="rank">1</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CCN J 1* Intro юноши/девушки (J) (14-18 лет - 2011-2007 г.р.)</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ТУМАШОВ Матвей Александрович</td><td class="fio">ДИОПТРИЯ 6-14</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КНЯЗЕВА Ксения Артемовна</td><td class="fio">О ХЭЛЛА-18</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">КОРЯГИНА Виктория Михайловна</td><td class="fio">КАПИТАЛ-11</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">ЧЕВАЛКОВА Нина Александровна</td><td class="fio">СВЯТОЗАР-16</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">ЖДАНОВА Мария Сергеевна</td><td class="fio">ОБЕР-ШЕНК-17</td><td class="rank">1</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100 CH</div>
+<ul class="tech-specs"><li>Выездка: 2022 FET CCI 1° с кан. 2024</li><li>Кросс: высота 100 см, преп. 14, прыжк. 19, дистанция 2100 м, ск. 500 м/мин, н.вр. 04&#x27;12&quot;</li><li>Конкур: высота 105 см, дистанция 520 м, ск. 325 м/мин, н.вр. 96 сек., пред.норма 192 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КЛИМИНА Софья Александровна</td><td class="fio">НЕВАДА-14</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">БРАГИНА Варвара Сергеевна</td><td class="fio">КОПЕРНИК-15</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">АСТАХОВА Валерия Денисовна</td><td class="fio">ВИЛЬЯМ СТАР-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90 CH</div>
+<ul class="tech-specs"><li>Выездка: 2002 FEI CCI1*</li><li>Кросс: высота 90 см, преп. 10, прыжк. 11, дистанция 950 м, ск. 400 м/мин, н.вр. 02&#x27;23&quot;</li><li>Конкур: высота 90 см, дистанция 450 м, ск. 325 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ХВОРОВА Полина Евгеньевна</td><td class="fio">ИДЕОЛОГИЯ-13</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">АРЫКОВА Елизавета Станиславовна</td><td class="fio">ПРЕСТИЖ-14</td><td class="rank">—</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — Троеборье LL CN 90</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">Дебова Алина Глебовна</td><td class="fio">Восторг-06</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">Колгина Елена Дмитриевна</td><td class="fio">Талисман-15</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">Чередниченко Дарья Сергеевна</td><td class="fio">Кегир Немо-17</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">Кожемякина София Сергеевна</td><td class="fio">Кавалер-13</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">Чупина Татьяна Николаевна</td><td class="fio">Бомбей-18</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">Завьялова Кристина Владимировна</td><td class="fio">Шелковый Путь-18</td><td class="rank">МС</td><td class="rank">II</td></tr>
+<tr><td class="num">7</td><td class="fio">Ромашева Валерия Евгеньевна</td><td class="fio">Аллонзо-19</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">8</td><td class="fio">Красилова Олеся Александровна</td><td class="fio">Алдан-18</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">9</td><td class="fio">Дробяз Яна Владимировна</td><td class="fio">Ляля-19</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">10</td><td class="fio">Семененко Ангелина Михайловна</td><td class="fio">Алмаз-19</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">8 — 11 июля 2025 г. — <a href="https://www.equestrian.ru/files/2025/37302.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство г. Москвы по троеборью</a></h2>
+<div class="class-badge">троеборьe — CN 100 J (Легкий класс 100/ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: CN 100 (Легкий класс 100), Тест FEI 1*</li><li>Кросс: высота 100 см, преп. 14, прыжк. 19, дистанция 2150 м, ск. 500 м/мин, н.вр. 04&#x27;18&quot;</li><li>Конкур: высота 100 см, дистанция 500 м, ск. 325 м/мин, н.вр. 93 сек., пред.норма 186 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КРАСИЛЬНИКОВА Варвара Петровна</td><td class="fio">ЛАТИФ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ЕРМИЛОВА Анастасия Алексеевна</td><td class="fio">ЛОТУС</td><td class="rank">II</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">19 — 22 июля 2025 г. — <a href="https://www.equestrian.ru/files/2025/37409.pdf" target="_blank" rel="noopener noreferrer">Межрегиональные соревнования по троеборью &quot;Кубок Сибири&quot;</a></h2>
+<div class="class-badge">троеборьe — CCN 2* S</div>
+<ul class="tech-specs"><li>Выездка: 2021 FEI CCI2* А (с изм. 2024)</li><li>Кросс: высота 110 см, преп. 18, прыжк. 25, дистанция 2820 м, ск. 520 м/мин, н.вр. 05&#x27;26&quot;, разметка синяя</li><li>Конкур: высота 115 см, дистанция 500 м, ск. 350 м/мин, н.вр. 66 сек., пред.норма 172 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">БЕЗГОДОВА Таисия Денисовна</td><td class="fio">ГОЛДЕН МАЙЕР-08</td><td class="rank">1</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">СИМОНКИНА Елизавета Викторовна</td><td class="fio">ХАМЕРКОН-17</td><td class="rank">2</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ВОНДАКУРОВА Кира Евгеньевна</td><td class="fio">ЗИМНЯЯ ЗОРЬКА-13</td><td class="rank">1</td><td class="rank">III</td></tr>
+<tr><td class="num">4</td><td class="fio">ФИСЕНКО Татьяна Валерьевна</td><td class="fio">КАПРАЛ-18</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">ХОЗИКОВА Валерия Евгеньевна</td><td class="fio">ЛЕДИ ГАГА-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ЖУКОВ Сергей Андреевич</td><td class="fio">КАРАКУМ-15</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">КНЯЗЕВА Ксения Артемовна</td><td class="fio">О ХЭЛЛА-18</td><td class="rank">2</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 100</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1* (с изм. 2024)</li><li>Кросс: высота 100см, преп. 14, прыжк. 19, дистанция 2350 м, ск. 500 м/мин, н.вр. 04&#x27;42&quot;, разметка оранжевая</li><li>Конкур: высота 105 см, дистанция 500 м, ск. 325 м/мин, н.вр. 93 сек., пред.норма 186 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">АНАНЬЕВА Таисия Вячеславовна</td><td class="fio">БЛЭКБЭРРИ-17</td><td class="rank">I</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">ПОЛЯКОВА Алина Алексеевна</td><td class="fio">САПЕР 31-13</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">БАЛЫБИНА Мария Константиновна</td><td class="fio">ПРАГА-18</td><td class="rank">II</td><td class="rank">I</td></tr>
+<tr><td class="num">4</td><td class="fio">АЛЕНЫШЕВА Валерия Антоновна</td><td class="fio">КАВАЛЕР-13</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">5</td><td class="fio">ВАСИЛЕНКО Артем Андреевич</td><td class="fio">МАЙСУН-16</td><td class="rank">1</td><td class="rank">I</td></tr>
+<tr><td class="num">6</td><td class="fio">ДУБРОВИНА Мария Николаевна</td><td class="fio">ВАЙТНАУЭР ФИЛИПП-14</td><td class="rank">2</td><td class="rank">I</td></tr>
+<tr><td class="num">7</td><td class="fio">КАЧИНА Анастасия Дмитриевна</td><td class="fio">АКТИВ-17</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">ИППОЛИТОВА Ксения Сергеевна</td><td class="fio">БАХЕТЛЕ-17</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">9</td><td class="fio">ТОКАРЕВА Екатерина Евгеньевна</td><td class="fio">МАГИЯ-15</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">10</td><td class="fio">СИДОРЧУК Ася Алексеевна</td><td class="fio">ВЕСТ ХОЛЛ-20</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">11</td><td class="fio">РОМАШЕВА Валерия Евгеньевна</td><td class="fio">ПАРАГВАЙ-16</td><td class="rank">1</td><td class="rank">III</td></tr>
+<tr><td class="num">12</td><td class="fio">ОРЛОВА Софья Андреевна</td><td class="fio">ХАРРИСОН АС-20</td><td class="rank">МС</td><td class="rank">III</td></tr>
+<tr><td class="num">13</td><td class="fio">ЛЕБЕДЕВА Таисия Евгеньевна</td><td class="fio">БАЙКАЛ-17</td><td class="rank">3</td><td class="rank">III</td></tr>
+<tr><td class="num">14</td><td class="fio">ХЛЯБИНА Ксения Олеговна</td><td class="fio">ГРОМОВЕРЖЕЦ ЛОК-09</td><td class="rank">1</td><td class="rank">1</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN 90</div>
+<ul class="tech-specs"><li>Выездка: 2022 FEI CCI1* (с изм. 2024)</li><li>Кросс: высота 90см, преп. 10, прыжк. 11, дистанция 1400 м, ск. 400 м/мин, н.вр. 03&#x27;30&quot;, разметка желтая</li><li>Конкур: высота 90 см, дистанция 450 м, ск. 325 м/мин, н.вр. 84 сек., пред.норма 168 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ПАНКРАТОВА Ульяна Юрьевна</td><td class="fio">СУНДОГАР-11</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">ФЕДОТОВА Кристина Геннадьевна</td><td class="fio">САРМАТ-16</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ГРИГОРЬЕВ Тимур Иванович</td><td class="fio">ОПТИМУС ПРАЙМ-15</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ТУРАЕВА Валентина Александровна</td><td class="fio">ТАЛИСМАН-15</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">ПРОКУДИНА Анастасия Максимовна</td><td class="fio">КРИСТАЛЛ ПРАЙД-13</td><td class="rank">3</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">ВОЙТКИВ Елизавета Михайловна</td><td class="fio">МОНРЕАЛЬ-17</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">7</td><td class="fio">ЕГОЯН Евгения Александровна</td><td class="fio">ИГРОК-20</td><td class="rank">2</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">4 — 6 августа 2025 г. — <a href="https://www.equestrian.ru/events/2025-Kubok_g_Jaroslavlja_po_konnomu_sportu_troebore/" target="_blank" rel="noopener noreferrer">Кубок г. Ярославля по конному спорту (троеборье)</a></h2>
+<div class="class-badge">троеборьe — CN90 (Детский класс 90/ДК90)</div>
+<ul class="tech-specs"><li>Выездка: CCN 1*, Тест FEI 1* (A) 2022 (с изменениями 2024)</li><li>Кросс: высота 90 см, преп. 14, прыжк. 15, дистанция 1200 м, ск. 400 м/мин, н.вр. 03&#x27;00&quot;, разметка розовая</li><li>Конкур: высота 90 см, дистанция 350 м, ск. 325 м/мин, н.вр. 65 сек., пред.норма 130 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">КАСПЕР</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">НОВИКОВА Варвара Андреевна</td><td class="fio">ГЕЛИОХРОМ</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">МУРАВЬЕВА Анастасия Станиславовна</td><td class="fio">РАДМИЛА</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">МИХЕЕВА Елизавета Михайловна</td><td class="fio">АКАПЕЛЛА</td><td class="rank">I</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">СМИРНОВ Иван Дмитриевич</td><td class="fio">КАРНЕГИ</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">6</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">КАПРИ ВАН ОБОС</td><td class="rank">КМС</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">24 — 28 сентября 2025 г. — <a href="https://www.equestrian.ru/files/2026/38251.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России (молодые лошади)/Первенство России по троеборью HL</a></h2>
+<div class="class-badge">троеборьe — CCN J 2* L</div>
+<ul class="tech-specs"><li>Выездка: Тест 2022 FEI CCI2* А (с изм 2024 г.)</li><li>Кросс: высота 110 см, преп. 22, прыжк. 31, дистанция 3640 м, ск. 520 м/мин, н.вр. 07&#x27;00&quot;</li><li>Конкур: высота 115 см, дистанция 590 м, ск. 350 м/мин, н.вр. 102 сек., пред.норма 204 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">ВАРАКСИНА Дарья Денисовна</td><td class="fio">ЭЛЬ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">2</td><td class="fio">ИВАНОВА Кира Дмитриевна</td><td class="fio">НОРСЕРН ВИНД</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">3</td><td class="fio">ЗУБАЧЕК Ангелина Петровна</td><td class="fio">КАРАМЕЛЬ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">4</td><td class="fio">АНДРЕЕВСКАЯ Ангелина Евгеньевна</td><td class="fio">РОЯЛ КОННЕКШН ІІ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">5</td><td class="fio">МАВРИНА Василиса Алексеевна</td><td class="fio">ОВОД</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">6</td><td class="fio">МИХЕЕВА Анастасия Александровна</td><td class="fio">БАВАРЕЦ</td><td class="rank">I</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">7</td><td class="fio">КУЗНЕЦОВА Мария Александровна</td><td class="fio">САН ФЛАЙ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">8</td><td class="fio">ЧУВАТОВА Владислава Антоновна</td><td class="fio">БАТЕРФФЛЯЙ</td><td class="rank">КМС</td><td class="rank rank-kms">КМС</td></tr>
+<tr><td class="num">9</td><td class="fio">КИСЕЛЕВА Варвара Максимовна</td><td class="fio">БАРЕЛЬЕФ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">10</td><td class="fio">ПОПОВ Сергей Сергеевич</td><td class="fio">ОЛИВИЯ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">11</td><td class="fio">КАТЮНИНА Дарья Алексеевна</td><td class="fio">АРГОЛИС ТОКИО</td><td class="rank">I</td><td class="rank">I</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">10 — 12 октября 2025 г. — <a href="https://www.equestrian.ru/files/2025/37947.pdf" target="_blank" rel="noopener noreferrer">Чемпионат и Первенство Брянской области по троеборью</a></h2>
+<div class="class-badge">троеборьe — CN100 (ЛЕГКИЙ КЛАСС 100)</div>
+<ul class="tech-specs"><li>Выездка: FEI CCI 1* 2022 (с изм.2024)</li><li>Кросс: высота 100 см, преп. 16, прыжк. 24, дистанция 2550 м, ск. 500 м/мин, н.вр. 05&#x27;06&quot;, разметка желтая</li><li>Конкур: высота 105 см, дистанция 460 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">НОВИКОВА Варвара Андреевна</td><td class="fio">ГЕЛИОХРОМ</td><td class="rank">—</td><td class="rank">I</td></tr>
+<tr><td class="num">2</td><td class="fio">КУЛЕШОВА София Андреевна</td><td class="fio">ФЕОПИСТИЯ</td><td class="rank">3</td><td class="rank">I</td></tr>
+<tr><td class="num">3</td><td class="fio">ВАСИЛЬЕВА Валерия Борисовна</td><td class="fio">ЯСНЫЙ</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN90 (ДЕТСКИЙ КЛАСС 90)</div>
+<ul class="tech-specs"><li>Выездка: Тест FEI CCI 1* 2022 (с изм.2024)</li><li>Кросс: высота 90 см, преп. 14, прыжк. 16, дистанция 980 м, ск. 400 м/мин, н.вр. 02&#x27;27&quot;, разметка красная</li><li>Конкур: высота 90см, дистанция 460 м, ск. 325 м/мин, н.вр. 85 сек., пред.норма 170 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">АХМЕТГАЛЕЕВА Полина Артуровна</td><td class="fio">АМПЛИТУДА-08</td><td class="rank">2</td><td class="rank">II</td></tr>
+<tr><td class="num">2</td><td class="fio">САВЧЕНКО Ксения Михайловна</td><td class="fio">ПАРАД ПОБЕДЫ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+<tr><td class="num">3</td><td class="fio">ПРОСЯННИКОВА Дарья Сергеевна</td><td class="fio">АФИНА ПАЛЛАДА-15</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">4</td><td class="fio">ВИНОГРАДОВА Светлана Сергеевна</td><td class="fio">ПЕРСЕЙ-16</td><td class="rank">1</td><td class="rank">II</td></tr>
+<tr><td class="num">5</td><td class="fio">МАХОВЫХ Анастасия Александровна</td><td class="fio">ГАВАНЬ V-21</td><td class="rank">МС</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event">17 — 19 октября 2025 г. — <a href="https://www.equestrian.ru/files/2025/37951.pdf" target="_blank" rel="noopener noreferrer">Чемпионат России по троеборью LL/Всероссийские спортивные соревнования по троеборью на призы Главы Республики Северная Осетия-Алания</a></h2>
+<div class="class-badge">троеборьe — CCN - 3* L</div>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">НАБАТЧИКОВА Екатерина Павловна</td><td class="fio">ЗВЕЗДНЫЙ ДОЖДЬ</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">2</td><td class="fio">КУСОВ Алан Русланович</td><td class="fio">АРАБЕСКА-15</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">3</td><td class="fio">ХАЛИКОВ Альберт Тимергалеевич</td><td class="fio">БЕТЕЛЬГЕЛЬЗЕ</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">4</td><td class="fio">СЕРДЕЧНОВ Герман Александрович</td><td class="fio">КОРДЕТТО</td><td class="rank">КМС</td><td class="rank">МС</td></tr>
+<tr><td class="num">5</td><td class="fio">СИВАКОВ Виталий Александрович</td><td class="fio">ЛЕДИ ПЕРСИМОН</td><td class="rank">МС</td><td class="rank">МС</td></tr>
+<tr><td class="num">6</td><td class="fio">КАТЮНИНА Дарья Алексеевна</td><td class="fio">АРГОЛИС ТОКИО</td><td class="rank">I</td><td class="rank">III</td></tr>
+<tr><td class="num">7</td><td class="fio">МАКСИМОВА Анастасия Васильевна</td><td class="fio">БАВАРЕЦ</td><td class="rank">МС</td><td class="rank">I</td></tr>
+<tr><td class="num">8</td><td class="fio">ВАСИЛЬЕВ Сергей Дмитриевич</td><td class="fio">ЭДЕЛЬВЕЙС</td><td class="rank">КМС</td><td class="rank">I</td></tr>
+<tr><td class="num">9</td><td class="fio">СИВАКОВА Анна Валерьевна</td><td class="fio">БУХТА-14</td><td class="rank">КМС</td><td class="rank">III</td></tr>
+</tbody></table>
+</section>
+<section class="event-block">
+<h2 class="event"> — <a href="https://www.equestrian.ru/files/2024/34661.pdf" target="_blank" rel="noopener noreferrer">Первенство Орловской области по троеборью/Муницип сор-ния</a></h2>
+<div class="class-badge">троеборьe — CCN J 2*-S</div>
+<ul class="tech-specs"><li>Выездка: CCN 2*S, Тест FEI 2024 2*(A)</li><li>Кросс: высота 110 см, преп. 20, прыжк. 25, дистанция 2800 м, ск. 520 м/мин, н.вр. 05&#x27;24&quot;, разметка белая</li><li>Конкур: высота 115 см, дистанция 475 м, ск. 350 м/мин, н.вр. 82 сек., пред.норма 164 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">2</td><td class="fio">ЕЖОВА Милана Владимировна</td><td class="fio">ПЛАНЕТА-14</td><td class="rank">2</td><td class="rank">III</td></tr>
+</tbody></table>
+<div class="class-badge">троеборьe — CN100 (ЛК100)</div>
+<ul class="tech-specs"><li>Выездка: FEI 2022 CCI1*, 1*А (с изм. 2024)</li><li>Кросс: высота до 100 см, преп. 14, прыжк. 18, дистанция 2100 м, ск. 500 м/мин, н.вр. 04&#x27;12&quot;, разметка желтая</li><li>Конкур: высота 105см, дистанция 475 м, ск. 325 м/мин, н.вр. 88 сек., пред.норма 176 сек.</li></ul>
+<table class="detail">
+<colgroup>
+<col class="c-num">
+<col class="c-fio">
+<col class="c-horse">
+<col class="c-rank">
+<col class="c-rank">
+</colgroup>
+<thead><tr>
+<th class="num">№</th>
+<th class="fio">ФИО</th>
+<th class="fio">Лошадь</th>
+<th class="rank">Было</th>
+<th class="rank">Выполнено</th>
+</tr></thead>
+<tbody>
+<tr><td class="num">1</td><td class="fio">АЛЕКСАНДРОВА Ангелина Денисовна</td><td class="fio">ОКТАВИЯ-17</td><td class="rank">—</td><td class="rank">II</td></tr>
+</tbody></table>
+</section>
+</div>
+</body>
+</html>
